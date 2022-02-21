@@ -162,7 +162,7 @@ In dit hoofdstuk zullen de non-functionele requirements van het product worden b
 
 ## 11.1. CI/CD tools
 
-Uit onderzoek dat gedaan is bij delaygram/portfolio#6 is gebleken dat GitHub actions de meeste geschikte tool is. Hier zijn veel mouwminuten beschikbaar.
+Uit onderzoek dat gedaan is bij https://github.com/delaygram/portfolio/issues/6 is gebleken dat GitHub actions de meeste geschikte tool is. Hier zijn veel mouwminuten beschikbaar.
 
 ## 11.2. Pipeline
 
