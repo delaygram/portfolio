@@ -108,18 +108,19 @@ Deze sprint zal toegewijd zijn aan het opzetten van het project. De eisen voor h
 
 ### 8.1.2. Planning
 
+![Project board sprint 0](img/project-board-sprint-0.png)
+
 ### 8.1.3. Achievements
+
+De opdrachtomschrijving is gemaakt, ook is alle tooling die nodig is om het project te starten opgezet. Verder zijn er nog uitgebreidere beschrijvingen gemaakt mbt de opdracht en project omschrijving. Verder is de planning opgezet voor de eerste sprint (sprint 0) om uiteindelijk een goede start te kunnen maken aan de komende sprints. Daarnaast is er nog een [Project pitch](sources/project-pitch.pptx) gemaakt om een duidelijk beeld te geven aan de docenten wat precies de bedoeling is.
 
 ### 8.1.4. Retrospective
 
 ## 8.2. Sprint 1
 
-
-
 # 9. Requirements
 
 ## 9.1. User stories
-
 
 ## 9.2. Functionele requirements
 
