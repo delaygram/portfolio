@@ -43,18 +43,19 @@
 
 # 3. Document historie
 
-|Versie |Veranderingen                                  |Auteur     |Datum      |
-|------:|-----------------------------------------------|-----------|-----------|
-|0.1    |Eerste opzet document                          |Rick Meels |20-2-2022  |
-|0.2    |Invullen van de volgende onderdelen:<br>- Introductie<br>- Project omschrijving<br>- Projectmanagement tools<br>- Non-functionals opzetten<br>- DevOps beschrijving|Rick Meels|21-2-2022|
+|Versie |Veranderingen                                                                                                                                                      |Auteur     |Datum      |
+|------:|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-----------|
+|0.1    |Eerste opzet document                                                                                                                                              |Rick Meels |20-2-2022  |
+|0.2    |Invullen van de volgende onderdelen:<br>- Introductie<br>- Project omschrijving<br>- Projectmanagement tools<br>- Non-functionals opzetten<br>- DevOps beschrijving|Rick Meels |21-2-2022  |
+|0.3    |Invullen van de volgende onderdelen:<br>- Systeem Context<br>- Container Diagram<br>- Updated images with svg's                                                    |Rick Meels |23-2-2022  |
 
 # 4. Aandeelhouders
 
-|Naam|Email|Bedrijf|Rol|
-|---|---|---|---|
-|Merel Veracx|m.veracx@fontys.nl|Fontys|Technical Contact|
-|Frank Coenen|f.coenen@fontys.nl|Fontys|Technical Contact|
-|Rick Meels|r.meels@student.fontys.nl|Fontys|Uitvoerder|
+|Naam         |Email                    |Bedrijf|Rol              |
+|-------------|-------------------------|-------|-----------------|
+|Merel Veracx |m.veracx@fontys.nl       |Fontys |Technical Contact|
+|Frank Coenen |f.coenen@fontys.nl       |Fontys |Technical Contact|
+|Rick Meels   |r.meels@student.fontys.nl|Fontys |Uitvoerder       |
 
 
 # 5. Introductie
@@ -136,13 +137,13 @@ In dit hoofdstuk zullen de non-functionele requirements van het product worden b
 
 | |Categorie|Beschrijving|
 |-|-|-|
-|N1|Security|De applicatie moet veulig zijn. Alle verzoeken van en naar services zullen door middel van TLS beveiligd worden.|
+|N1|Security|De applicatie moet veilig zijn. Alle verzoeken van en naar services zullen door middel van TLS beveiligd worden.|
 |N2|Privacy|De gegevens van gebruikers moet veilig opgeslagen worden. Ook zullen er geen gegevens die niet nodig zijn voor de bedrijfsvoering worden opgeslagen.|
 |N3|Reliability|De tijd tussen het falen van de applicatie zal zo lang mogelijk zijn.|
 |N4|Testability|De software wordt getest op verschillende niveau's, dit zal ook voor elke release van de software gedaan worden.|
 |N5|Data integrity|De data wordt op een veilige manier opgeslagen en zal voldoen aan de GDPR.|
 |N6|Documentation|Allen onderdelen zullen uitgebreid gedocumenteerd worden.|
-|N7|Extensibility|Het platform zal op een manier worden gebouwd dat deze goed uit te breiden is/|
+|N7|Extensibility|Het platform zal op een manier worden gebouwd dat deze goed uit te breiden is|
 |N8|Open source|Alle code zal als open source op GitHub staan.|
 |N9|Performance|Alle verzoeken binnen de applicatie (met uitzondering van de zware bereken functies) zullen over een goeie wifiverbinding binnen 2 seconden een reactie sturen.|
 |N10|Quality|De kwaliteit van de code zal hoog zijn, deze wordt bewaakt door middel van de tooling die hiervoor beschikbaar is.|
@@ -156,8 +157,16 @@ In dit hoofdstuk zullen de non-functionele requirements van het product worden b
 # 10. Architektuur Design
 
 ## 10.1. Systeem contxt
+ 
+![Systeem Context](img/systeem-context.svg)
+
+Hierboven is de systeem context te zien. Hier staan de verbindingen met externe applicaties en hoe deze met elkaar communiceren. Ook zijn de verschillende rollen te zien en hoe deze het systeem gebruiken.
 
 ## 10.2. Container Diagram
+
+![Container diagram](img/container-diagram.svg)
+
+Hierboven staat een diagram waar de architectuur iets duidelijker in beeld is gebracht. Zo valt te zien dat er een frontend service die met de backend praat. De backend services zullen praten met verschillende datastores. Ook staat de verbinding met Cognito en SNS services ertussen.
 
 # 11. DevOps
 
@@ -169,7 +178,7 @@ Uit onderzoek dat gedaan is bij [#6](https://github.com/delaygram/portfolio/issu
 
 ### 11.2.1. Feature
 
-![Feature pipeline](img/feature-pipline.png)
+![Feature pipeline](img/feature-pipline.svg)
 
 Hierboven staat een visualisatie van de pipeline zoals hij plaatsvind wanneer er op een feature branch wordt gepusht.
 
@@ -183,7 +192,7 @@ De volgende stappen zullen plaatsvinden:
 
 ### 11.2.2. Develop/Main
 
-![Develop/Main pipeline](img/develop-master-pipeline.png)
+![Develop/Main pipeline](img/develop-master-pipeline.svg)
 
 Dit is de pipeline die wordt uitgevoerd op de develop en main branches. Ook worden alle stappen van de feature branches uitgevoerd.
 
