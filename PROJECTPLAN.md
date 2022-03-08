@@ -153,7 +153,7 @@ Hoe kan [Delaygram](https://delaygram.nl/) functioneren als een integraal geheel
 
 Hieronder bevindt zich een kort overzicht over de producten die tijdens de stage opgeleverd zullen worden. Daarnaast staat een korte beschrijving over hoe de specifieke onderdelen gerealiseerd zullen worden.
 
-![Product Breakdown Structure](/img/projectplan/product-breakdown-structure.iuml)
+![Product Breakdown Structure](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/delaygram/portfolio/sprint1/img/projectplan/product-breakdown-structure.iuml)
 
 - **Projectplan**
   - Dit document. Het projectplan beschrijft hoe het project zal verlopen.
