@@ -39,9 +39,9 @@
 
 | Begrip   | Omschrijving                                                                                                                                                                                                                                           |
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Big Data | Big data of massadata zijn gegevensverzamelingen (datasets) die te groot en te weinig gestructureerd zijn om met reguliere databasemanagementsystemen te worden onderhouden.<sup>[1](#referenties)</sup>                                               |
-| DevOps   | DevOps, een combinatie van ontwikkeling (Dev) en bedrijfsactiviteiten (Ops), is de samenstelling van mensen, processen en technologie om doorlopend waarde aan klanten te bieden.<sup>[2](#referenties)</sup>                                          |
-| CI/CD    | Continuous Integration (CI) en Continuous Delivery (CD) is de benaming voor een manier van werken binnen software teams, waarbij de afhandeling van codewijzigingen wordt gedaan door een aantal geautomatiseerde stappen.<sup>[3](#referenties)</sup> |
+| Big Data | Big data of massadata zijn gegevensverzamelingen (datasets) die te groot en te weinig gestructureerd zijn om met reguliere databasemanagementsystemen te worden onderhouden.<sup>[1](#7-referenties)</sup>                                               |
+| DevOps   | DevOps, een combinatie van ontwikkeling (Dev) en bedrijfsactiviteiten (Ops), is de samenstelling van mensen, processen en technologie om doorlopend waarde aan klanten te bieden.<sup>[2](#7-referenties)</sup>                                          |
+| CI/CD    | Continuous Integration (CI) en Continuous Delivery (CD) is de benaming voor een manier van werken binnen software teams, waarbij de afhandeling van codewijzigingen wordt gedaan door een aantal geautomatiseerde stappen.<sup>[3](#7-referenties)</sup> |
 
 # 4. Projectopdracht
 
@@ -168,27 +168,11 @@ Hoe kan [Delaygram](https://delaygram.nl/) functioneren als een integraal geheel
 
 ### 4.8.2. Onderzoeksmethodes
 
-<span style="color:#A0C840; font-size: 18px;">**Library**</span>
-
-**Available product analysis**
-
-Door te onderzoeken welke bestaande systemen/oplossingen al op de markt zijn, krijg je een goed beeld van welke oplossingen er al bestaan die goed passen bij dit huidige project en of die een goede aanvulling kunnen zijn.
-
-**Literature Study**
-
-Door bestaande bronnen te onderzoeken die verschillende oplossingen beschrijven, kun je eerder gevonden resultaten gebruiken tot een conclusdie te komen voor dit onderzoek.
-
-<span style="color:#5DBCB3; font-size: 18px;">**Field**</span>
-
-**Document Analysis**
-
-Documenten bestureen van de betreffende providers en/of producten kunnen gebruikt worden om een goed beeld te krijgen of de gewenste oplossing toe te passen valt op dit project.
-
-<span style="color:#15B3D3; font-size: 18px;">**Workshop**</span>
-
-**Prototyping**
-
-Vanzelfsprekend is de beste manier om onderdelen visueel en functioneel te krijgen is door een prototype te maken en de resultaten hiervan te noteren. Zo kan een goed beeld komen op de principes van dit onderzoek.
+|Methode|Uitleg|
+|------|------|
+|![Library](/img/projectplan/library.png)|**Available product analysis**<br>Door te onderzoeken welke bestaande systemen/oplossingen al op de markt zijn, krijg je een goed beeld van welke oplossingen er al bestaan die goed passen bij dit huidige project en of die een goede aanvulling kunnen zijn.<br><br>**Literature Study**<br>Door bestaande bronnen te onderzoeken die verschillende oplossingen beschrijven, kun je eerder gevonden resultaten gebruiken tot een conclusdie te komen voor dit onderzoek.|
+|![Field](img/projectplan/field.png)|**Document Analysis**<br>Documenten bestureen van de betreffende providers en/of producten kunnen gebruikt worden om een goed beeld te krijgen of de gewenste oplossing toe te passen valt op dit project.|
+|![Workshop](/img/projectplan/workshop.png)|**Prototyping**<br>Vanzelfsprekend is de beste manier om onderdelen visueel en functioneel te krijgen is door een prototype te maken en de resultaten hiervan te noteren. Zo kan een goed beeld komen op de principes van dit onderzoek.|
 
 ### 4.8.3. Scope
 
