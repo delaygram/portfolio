@@ -4,18 +4,28 @@
 - [2. Document historie](#2-document-historie)
 - [3. Begrippenlijst](#3-begrippenlijst)
 - [4. Projectopdracht](#4-projectopdracht)
-  - [4.1 Probleemstelling](#41-probleemstelling)
-  - [4.2 Doel van het project](#42-doel-van-het-project)
-  - [4.3 Begrenzing en Randvoorwarden](#43-begrenzing-en-randvoorwarden)
-  - [4.4 Strategie](#44-strategie)
-  - [4.5 Succesfactoren](#45-succesfactoren)
-  - [4.6 Belangrijke data](#46-belangrijke-data)
-  - [4.7 Onderzoeksplan](#47-onderzoeksplan)
-  - [4.8 Onderzoeksvragen](#48-onderzoeksvragen)
-    - [4.8.1 Hoofdvraag](#481-hoofdvraag)
-    - [4.8.2 Deelvragen](#482-deelvragen)
-  - [4.9 Eindproducten](#49-eindproducten)
-- [Referenties](#referenties)
+  - [4.1. Probleemstelling](#41-probleemstelling)
+  - [4.2. Doel van het project](#42-doel-van-het-project)
+  - [4.3. Begrenzing en Randvoorwarden](#43-begrenzing-en-randvoorwarden)
+  - [4.4. Strategie](#44-strategie)
+  - [4.5. Succesfactoren](#45-succesfactoren)
+  - [4.6. Belangrijke data](#46-belangrijke-data)
+  - [4.7. Onderzoeksplan](#47-onderzoeksplan)
+  - [4.8. Onderzoek](#48-onderzoek)
+    - [4.8.1. Onderzoeksvragen](#481-onderzoeksvragen)
+      - [4.8.1.1. Hoofdvraag](#4811-hoofdvraag)
+      - [4.8.1.2. Deelvragen](#4812-deelvragen)
+    - [4.8.2. Onderzoeksmethodes](#482-onderzoeksmethodes)
+    - [4.8.3. Scope](#483-scope)
+  - [4.9. Eindproducten](#49-eindproducten)
+- [5. Activiteiten en tijdsplan](#5-activiteiten-en-tijdsplan)
+  - [5.1. Opdeling en aanpak van het project](#51-opdeling-en-aanpak-van-het-project)
+  - [5.2. Overall tijdsplan](#52-overall-tijdsplan)
+- [6. Testaanpak en Configuratiemanagement](#6-testaanpak-en-configuratiemanagement)
+  - [6.1. Testaanpak/strategie](#61-testaanpakstrategie)
+  - [6.2. Lijst technieken](#62-lijst-technieken)
+  - [6.3. Configuratiemanagement](#63-configuratiemanagement)
+- [7. Referenties](#7-referenties)
 
 # 2. Document historie
 
@@ -33,13 +43,13 @@
 
 # 4. Projectopdracht
 
-## 4.1 Probleemstelling
+## 4.1. Probleemstelling
 
 Momenteel zijn er veel mensen die hun foto's en/of video's kwijt willen, maar het liever niet willen plaatsen op de servers van een van de grote corperaties (ex. Facebook, Instagram, Twitter, etc.). Dit heeft te maken dat grote corperaties gebruik maken van de geplaatste content en zo een profiel van jou kunnen maken en gerichter kunnen adverteren.
 
 Daarom moet er een oplossing komen waar grote corperaties niet bij kunnen en dus geen [Big Data](#3-begrippenlijst) verzamelen. Om dat probleem te verhelpen moet er een nieuw onafhankelijk product worden gebouwd. Dit product moet een webapplicatie zijn die gebruikers kunnen gebruiken om content te plaatsen om zo te delen met andere gebruikers.
 
-## 4.2 Doel van het project
+## 4.2. Doel van het project
 
 Om dit probleem te verhelpen moet er een nieuw onafhankelijk product worden gebouwd. Dit product gaat de naam [Delaygram](https://delaygram.nl/) krijgen. 
 
@@ -48,7 +58,7 @@ Om dit probleem te verhelpen moet er een nieuw onafhankelijk product worden gebo
 Het project zal bestaan uit een webapplicatie die te gebruiken is voor gebruikers die plaatjes of filmpjes willen posten op het platform. Een mobiele app is nog een discussie over of deze gerealiseerd zal worden. 
 De te gebruiken technieken staan nog niet van tevoren vast, hier zal tijdens het project voor gekozen worden. Er is ook een mogelijkheid om verschillende technieken door elkaar heen te gebruiken.
 
-## 4.3 Begrenzing en Randvoorwarden
+## 4.3. Begrenzing en Randvoorwarden
 
 | Tot het project behoort:                                    | Tot het project behoort niet: |
 | ----------------------------------------------------------- | ----------------------------- |
@@ -59,7 +69,7 @@ De te gebruiken technieken staan nog niet van tevoren vast, hier zal tijdens het
 | 5. Planning                                                 |                               |
 | 6. [DevOps](#3-begrippenlijst) ([CI/CD](#3-begrippenlijst)) |                               |
 
-## 4.4 Strategie
+## 4.4. Strategie
 
 Het project is in grote lijnen volgens het waterval principe. De keuze voor een waterval methodiek is gemaakt op basis van de scope van het project. Het project zal een vaststaande scope hebben voor de gehele ontwikkelfase en zullen tijdens het verloop van het project niet of nauwelijks aangepast worden.
 
@@ -75,7 +85,7 @@ Het project is in grote lijnen volgens het waterval principe. De keuze voor een 
 - **Afrondingsfase**
   - In deze fase zullen de laatste wijzigingen en puntjes op de “i” worden gezet, denk hierbij aan bug fixes, laatste features, documentatie, portfolio en dergelijke. 
 
-## 4.5 Succesfactoren
+## 4.5. Succesfactoren
 
 Om het project succesvol te laten slagen moet er voldaan worden aan alle acceptatiecriteria van de individuele user stories. Naast deze acceptatiecriteria zijn er nog een aantal andere factoren die bepalen of het project succesvol is of niet:
 
@@ -83,7 +93,7 @@ Om het project succesvol te laten slagen moet er voldaan worden aan alle accepta
 - Maak het overbodig voor gebruikers om eindeloos te zoeken op de webapplicatie.
 - Maak het product responsive om ervoor te zorgen dat verzoeken niet te lang duren.
 
-## 4.6 Belangrijke data
+## 4.6. Belangrijke data
 
 Naast alle planningen zijn er belangrijke data die eventueel invloed kunnen hebben op het project.
 
@@ -115,7 +125,7 @@ gantt
     Sprint 5           :29-05-2022, 19-06-2022
 ```
 
-## 4.7 Onderzoeksplan
+## 4.7. Onderzoeksplan
 
 Alle onderzoeken zullen uitgevoerd worden met de Methode Toolkit HBO-i. Dit framework biedt gebruikers de mogelijkheid geschikte onderzoeksmethoden te selecteren, geeft aanwijzingen voor het gebruik en wijst naar geschikte bronnen om meer diepgang te geven.
 
@@ -129,15 +139,17 @@ Voor een beschrijving van de onderzoeksmethodes, vindt hier onder een korte besc
 | ![Showroom](/img/projectplan/showroom.png) | De showroom onderzoeksstrategie wordt gebruikt om ideeën in relatie met al bestaand werk te testen. Het tonen van een prototype aan experts kan een vorm van showroom onderzoek zijn of het pitchen waarom een project anders is dan de rest van de concurrentie. |
 | ![Workshop](/img/projectplan/workshop.png) | De workshop onderzoeksstrategie wordt gebruikt om kansen te verkennen. Prototyping, designen en co-creatie zijn manieren om inzicht te krijgen in wat mogelijk is en hoe bepaalde dingen kunnen functioneren.                                                     |
 
-## 4.8 Onderzoeksvragen
+## 4.8. Onderzoek
 
 In de opdracht komen veel technieken en werkwijzen aan bod. De opdracht werkt meerdere deelvragen uit. Een groot deel van de strategieën van het onderzoeks framework zijn toepasbaar tijdens dit project.
 
-### 4.8.1 Hoofdvraag
+### 4.8.1. Onderzoeksvragen
 
-Hoe kan [Delaygram](https://delaygram.nl/) functioneren als een integraal geheel, gebaseerd op een enterprice architectuur?
+#### 4.8.1.1. Hoofdvraag
 
-### 4.8.2 Deelvragen
+Hoe kan [Delaygram](https://delaygram.nl/) functioneren als een integraal geheel, gebaseerd op een enterprice architectuur in de cloud?
+
+#### 4.8.1.2. Deelvragen
 
 1. Hoe wordt de webapplicatie beschikbaar gesteld aan de eindgebruiker in de cloud?
    - Welke services zijn nodig om de applicatie beschikbaar te kunnen stellen in de cloud?
@@ -148,8 +160,39 @@ Hoe kan [Delaygram](https://delaygram.nl/) functioneren als een integraal geheel
 3. Hoe wordt een applicatie beschikbaar gesteld via Kubernetes?
    - Wat is k8s?
    - Hoe applicaties te schalen?
+4. Hoe wordt er verzekerd dat de applicatie schaalbaar is?
+   - Wat betekend schalen van een applicatie?
+   - Waarom is schalen van een applicatie zo belangrijk? 
 
-## 4.9 Eindproducten
+### 4.8.2. Onderzoeksmethodes
+
+<span style="color:#A0C840; font-size: 18px;">**Library**</span>
+
+**Available product analysis**
+
+Door te onderzoeken welke bestaande systemen/oplossingen al op de markt zijn, krijg je een goed beeld van welke oplossingen er al bestaan die goed passen bij dit huidige project en of die een goede aanvulling kunnen zijn.
+
+**Literature Study**
+
+Door bestaande bronnen te onderzoeken die verschillende oplossingen beschrijven, kun je eerder gevonden resultaten gebruiken tot een conclusdie te komen voor dit onderzoek.
+
+<span style="color:#5DBCB3; font-size: 18px;">**Field**</span>
+
+**Document Analysis**
+
+Documenten bestureen van de betreffende providers en/of producten kunnen gebruikt worden om een goed beeld te krijgen of de gewenste oplossing toe te passen valt op dit project.
+
+<span style="color:#15B3D3; font-size: 18px;">**Workshop**</span>
+
+**Prototyping**
+
+Vanzelfsprekend is de beste manier om onderdelen visueel en functioneel te krijgen is door een prototype te maken en de resultaten hiervan te noteren. Zo kan een goed beeld komen op de principes van dit onderzoek.
+
+### 4.8.3. Scope
+
+De scope van het onderzoek is om te onderzoeken hoe de betreffende applicatie kan worden gebruikt in de cloud en hoe dit op een enterprise architectuur gebaseerd kan worden. De bedoeling is namelijk om de applicatie schaalbaar te maken en onderliggend ervoor zorgen dat de applicatie kan worden gebruikt door meerdere gebruikers tegelijkertijd.
+
+## 4.9. Eindproducten
 
 Hieronder bevindt zich een kort overzicht over de producten die tijdens de stage opgeleverd zullen worden. Daarnaast staat een korte beschrijving over hoe de specifieke onderdelen gerealiseerd zullen worden.
 
@@ -176,10 +219,83 @@ Hieronder bevindt zich een kort overzicht over de producten die tijdens de stage
 - **Eindapplicatie**
   - Een eindprocut van de delaygram applicatie.
 
+# 5. Activiteiten en tijdsplan
 
+## 5.1. Opdeling en aanpak van het project
 
+De aanpak van het project zal in grote lijnen volgens de vaterval methode verlopen.
 
-# Referenties
+1. Opzetten van de requirements (Analyse)
+2. Designfase (Architectuur)
+3. Bouwen/implementeren van het project (Software)
+4. Testfase (Testrapport)
+5. Portfolio
+
+## 5.2. Overall tijdsplan
+
+| Fasering      | Effort | Start | Gereed |
+| ------------- | :----: | ----- | ------ |
+| Opstart       |   5    |       |        |
+| Onderzoek     |   30   |       |        |
+| Analyse       |   5    |       |        |
+| Design        |   10   |       |        |
+| Implementatie |   50   |       |        |
+| Test          |   20   |       |        |
+| Afronding     |   5    |       |        |
+
+Data zijn gebaseerd op ruwe inschattingen en kunnen veranderen. Overpalling van activiteiten kan voorkomen.
+
+# 6. Testaanpak en Configuratiemanagement
+
+## 6.1. Testaanpak/strategie
+
+Om ervoor te zorgen dat dit project en de onderliggende applicaties soepel en goed werken is het nodig om een testaanpak/strategie toe te passen. Daarbij worden de volgende onderdelen in meegenomen:
+
+- **Unit tests**
+  - Voor de unit test wordt voornamelijk gebruik gemaakt van JUnit5 (Springboot) en PyTest (Python). JUnit5 is het standaard testing platform voor Java (Springboot) applicaties, net zoals PyTest is dit het standaard testing platform voor Python. Er worden ook vershillende mocking frameworks gebruikt, denk hierbij aan mockito (Springboot) en boto3, pytest-mock, moto (Python). Dit om de testen zo zelf contained als mogelijk te houden.
+- **Integration tests**
+  - Met integratie testen wordt gebruik gemaakt van @SpringBootTest, TestRestTemplate, MockServer en Gatling (Springboot) en Behave (Python). Dit om de integratie testen te testen op basis van de gemaakte API-endpoints.
+- **Performance tests**
+  - Om performance tests uit te voeren wordt gebruik gemaakt van Scala hiermee kan op een makkelijke manier de performance van de applicatie worden gemeten in de Sprinboot applicatie en de Python applicatie.
+- **Handmatige tests**
+  - Als laatste en misschien wel een van de belangrijkere is het handmatig testen van nieuwe componenten en of features die geïmplementeerd zijn. Met handmatig testen worden snel fouten achterhaald die gemaakt zijn tijdens het developen.
+
+## 6.2. Lijst technieken
+
+Om een duidelijk beeld te krijgen wat voor een technieken er precies gebruikt wordt, is hieronder een lijst samengesteld om een makkelijk overzicht te krijgen:
+
+- **Language**
+  - Java (Springboot)
+  - Python
+- **Testing**
+  - JUnit5
+  - Mockito
+  - TestRestTemplate
+  - Boto3
+  - PyTest-mock
+  - Moto
+  - Cucumber
+- **Coverage & Reports**
+  - Coverage (Python)
+  - JaCoCo
+  - SonarCloud
+- **Environments**
+  - K8s
+  - AWS
+  - Docker
+  - GitHub Actions
+
+## 6.3. Configuratiemanagement
+
+De gemaakte applicaties worden beheerd via git, GitHub als service. Daarbij wordt gehouden aan de standaard flow.
+
+![GitFlow](/img/projectplan/gitflow.svg)
+
+Elke pull request wordt doormiddel van GitHub Actions gebuild en getest. Na het bouwen en het testen van de applicatie gaat SonarCloud er overheen om te kijken of de code kwaliteit gewaarborgd wordt. Denk hier aan code smells, security hotspots, bugs en vulnerabillities. Na het slagen van alle stappen zullen de aanpassingen gereviewd worden en het vervolgens doorzetten naar development.
+
+Zodra dit naar main gepushed wordt, zal de applicatie in een staging environment komen om de applicatie online te kunnen testen. Indien dit naar behoren werkt kan er een release gemaakt worden en uiteindelijk naar production deployed worden.
+
+# 7. Referenties
 
 1. Wikipedia contributors. (2022, February 25). Big data. *In Wikipedia, The Free Encyclopedia.* Retrieved 10:23, March 7, 2022, from https://en.wikipedia.org/w/index.php?title=Big_data&oldid=1073925279
 2. DevOps. *Microsoft Azure.* Retrieved 11:44, March 7, 2022, from https://azure.microsoft.com/nl-nl/overview/what-is-devops/
