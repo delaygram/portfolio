@@ -29,9 +29,11 @@
 
 # 2. Document historie
 
-| Versie | Veranderingen         | Auteur     | Datum     |
-| -----: | --------------------- | ---------- | --------- |
-|    0.1 | Eerste opzet document | Rick Meels | 07-3-2022 |
+| Versie | Veranderingen                        | Auteur     | Datum      |
+| -----: | ------------------------------------ | ---------- | ---------- |
+|    0.1 | Eerste opzet document                | Rick Meels | 07-03-2022 |
+|    0.3 | Invullen onderdelen 3 t/m 4.7        | Rick Meels | 09-03-2022 |
+|    0.2 | Invullen alle onderdelen 4.8 t/m 6.3 | Rick Meels | 13-03-2022 |
 
 # 3. Begrippenlijst
 
