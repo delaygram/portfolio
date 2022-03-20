@@ -1,0 +1,17 @@
+@startwbs
+* Delaygram
+** Documentatie
+*** Projectplan
+*** AnalyseDocument
+*** Architectuurdocument
+*** Testplan/Rapport
+*** Portfolio
+*** Onderzoeksresultaten
+** Software
+*** Backend services
+**** User service
+**** Upload service
+**** Comment service
+**** Stats service (likes etc.)
+*** Angular frontend
+@endwbs
