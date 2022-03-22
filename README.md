@@ -274,3 +274,19 @@ Het portfolio en je leeswijzer zijn groeiende tijdens het semester.*
 **Sprint 5**
 
 </details>
+
+**Sprint 1**
+
+In sprint 1 heeft voornamelijk de focus gelegen op het invullen van de documenten betreffende [Projectplan](analyse/PROJECTPLAN.md) en het [Software Document](analyse/SOFTWARE%20DOCUMENT.md). In het [Projectplan](analyse/PROJECTPLAN.md) staat beschreven wat voor een project gemaakt zal worden en wat het uiteindelijke doel is. Daarnaast wordt de focus gelegd op de strategie, onderzoek, de uiteindelijke eindproducten, testaanpak en teststrategie, de technieken die toegepast zullen worden tijdens het project en de configuratiemanagement binnen het project.
+
+Wat vervolgens wordt beschreven in het [Software Document](analyse/SOFTWARE%20DOCUMENT.md) zijn de requirements waar de focus wordt gelegd op de user stories, functional en non-functionals, welke projectmanagementtools worden gebruikt binnen het project, met daarnaast wat de loop van de DevOps pipelines worden, hoe het architectuur eruit gaat zien. Uiteindelijk wordt er nog een focus gelegd op de goals, planning, achievements en retrospective van de betreffende sprint.
+
+Nu is er feedback ontvangen van de volgende onderdelen:
+- Documentatie
+  - Je hoofdvraag vergeet nog de context
+  - Verwijzingen in de presentatie komen niet geheel overheen van de onderdelen die wel beschreven staan in de presentatie
+  - Non functionals zijn nog niet correct uitgewerkt wat wel in de presentatie was
+  - De diagrammen zoomen nog niet in op de complexiteit
+  - Security by design is een goede om dieper op in te zoomen
+  - Er staat best veel in mijn portfolio wat niet compleet aan bod is gekomen in de presentatie
+- Er is nog geen PoC opgebouwd
