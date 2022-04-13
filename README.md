@@ -192,6 +192,8 @@ Naast functionaliteit wordt er een architectuur van enterprise software ontwikke
 
 </details>
 
+De bedoeling is om hier omgevingen en tools op te zetten wat mijn software development proces ondersteund. Het streven is om zoveel mogelijk te automatiseren, dit om korte releasetijden en een hoge softwarekwaliteit mogelijk te maken.
+
 ## 4.6. Cloud Services
 
 <details>
