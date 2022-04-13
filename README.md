@@ -22,27 +22,7 @@
 
 # 3. Introductie
 
-<details>
-  <summary>Explanation</summary>
-  
-> Uitleg document, leeswijzer, …
-
-*Deze leeswijzer begeleid de lezer door de inhoud van je portfolio en geeft daarbij een beeld waar je op een bepaald moment in het semester staat met betrekking tot je leeruitkomsten.*
-
-*Het portfolio is de verzameling van alle deelresultaten die je bereikt hebt op een bepaald moment (snapshot) in het semester. Dit snapshot wordt gemaakt aan het einde van een sprint. Waarbij je voor elke leeruitkomst beschrijft op welk niveau je staat. Daarnaast beschrijf je in de evaluatie van elke sprint, wat de stappen zijn die je gaat nemen om naar een volgend niveau te komen.*
-
-*Aan het einde van het semester bevat je portfolio deelresultaten die voor alle leeruitkomsten demonstreert, dat je op een “proficient” niveau hebt gepresteerd. Je sluit op dat moment ook af met een conclusie, die reflecteer op hoe je semester is verlopen.*
-
-*Deelresultaten zijn alle producten die jij gerealiseerd hebt voor het individuele en proftaak project: Je kunt daarbij denken aan: Code, documenten, snapshots, projecten van gevolgde tutorials, interviews, etcetera.
-Het portfolio en je leeswijzer zijn groeiende tijdens het semester.*
-
-> Uitleg gezamenlijk project
-
-> Uitleg individueel project
-
-> Uitleg over je startkennis, ervaring, interesses en wat je dit semester graag zou willen leren en bereiken
-
-</details>
+In de leezwijzer is het de bedoeling dat de lezer meegenomen wordt op de inhoud van het portfolio. De lezer kan daarmee zien waar hij/zij op een bepaald moment in het semester staat met betrekking tot je leeruitkomsten.
 
 Tijdens semester 6 is het de bedoeling om een persoonlijk project te maken, maar absoluut ook een project die in groepsverband uitgevoerd wordt. Zo is er een verdeling tijdens de week van dagen dat gewerkt wordt aan verschillende projecten. 
 
