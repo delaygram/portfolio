@@ -50,6 +50,20 @@ Nu is bij de groepsopdracht het volgende de bedoeling. Hier is een project gekoz
 
 Naast een groepsopdracht is het ook de bedoeling om een persoonlijk project uit te voeren, hier is gekozen om een Instagram clone te maken. Deze clone is een project waar je een account aanmaakt en daarmee kan posten (foto's en/of korte video's), commentaar aanmaken en likes krijgen. Wat dit project interessant maakt is de architectuur op de achtergrond. Er wordt namelijk zwaar gebruik gemaakt van de cloud (in dit geval AWS) waarbij serverless een grote rol speelt. Het is de bedoeling dat verschillende bounded contexten gemaakt worden waarbij deze nouw met elkaar samen gaan werken om zo een integraal systeem te maken. 
 
+Er is momenteel al redelijk wat kennis aanwezig van de volgende onderdelen:
+- Docker
+- AWS
+- Serverless
+- Deployment
+
+Tijdens het semester is de bedoeling dat er meer kennis opgedaan wordt over betreffende onderdelen om uiteindelijk als betere software engineer het semester uit te komen. Daarom is de bedoeling om betreffende de volgende onderdelen meer diepgang in te vinden:
+- AWS
+- Serverless
+- Kubernetes
+- Message Queuing
+
+Waarom AWS en Serverless weer in de lijst staan is dat in deze onderdelen nog veel te leren valt en veel kennis uit te breiden is.
+
 # 4. Leeruitkomsten
 
 <details>
