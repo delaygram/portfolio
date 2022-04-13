@@ -114,6 +114,8 @@ Bij Enterprise-softwareontwikkeling is het de bedoeling om correcte developing p
 
 </details>
 
+Op context gebaseerd onderzoek verrichten is het de bedoeling om volgens planning professionele producten op te leveren die het resultaat zijn van een gestructureerd en methodisch onderzoek. Er is een kritische kijk aanwezig op het eigen werk, maar ook andermans werk. Zo moet er de mogelijkheid zijn om om onderzoeken te kunnen vergelijken met alternatieven, de gestructureerde en methodische aanpak te beoordelen en rekening houden met algemeen aanvaarde en ethische waarden.
+
 ## 4.3. Voorbereiding op een leven lang leren
 
 <details>
