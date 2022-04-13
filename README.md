@@ -15,9 +15,10 @@
 
 # 2. Document historie
 
-| Versie | Veranderingen         | Datum      |
-| -----: | --------------------- | ---------- |
-|    0.1 | Eerste opzet document | 21-03-2022 |
+| Versie | Veranderingen                              | Datum      |
+| -----: | ------------------------------------------ | ---------- |
+|    0.1 | Eerste opzet document                      | 21-03-2022 |
+|    0.2 | Reflectie sprint 2<br>Invullen introductie | 13-04-2022 |
 
 # 3. Introductie
 
@@ -42,6 +43,8 @@ Het portfolio en je leeswijzer zijn groeiende tijdens het semester.*
 > Uitleg over je startkennis, ervaring, interesses en wat je dit semester graag zou willen leren en bereiken
 
 </details>
+
+
 
 # 4. Leeruitkomsten
 
@@ -99,9 +102,9 @@ Het portfolio en je leeswijzer zijn groeiende tijdens het semester.*
 
 **Ontwikkelschaal**
 
-|   ID | Beschrijving | Type                | Niveau    |
-| ---: | ------------ | ------------------- | --------- |
-|  1.1 | Sprint 0     | Groepsproject       | orienting |
+|   ID | Beschrijving | Type          | Niveau    |
+| ---: | ------------ | ------------- | --------- |
+|  1.1 | Sprint 0     | Groepsproject | orienting |
 
 **Reflectie op voortgang**
 
@@ -118,9 +121,9 @@ Het portfolio en je leeswijzer zijn groeiende tijdens het semester.*
 
 **Ontwikkelschaal**
 
-|   ID | Beschrijving | Type                | Niveau    |
-| ---: | ------------ | ------------------- | --------- |
-|  1.1 | Sprint 0     | Groepsproject       | Beginnend |
+|   ID | Beschrijving | Type          | Niveau    |
+| ---: | ------------ | ------------- | --------- |
+|  1.1 | Sprint 0     | Groepsproject | Beginnend |
 
 **Onderbouwing**
 
@@ -142,9 +145,9 @@ Het portfolio en je leeswijzer zijn groeiende tijdens het semester.*
 
 **Ontwikkelschaal**
 
-|   ID | Beschrijving | Type                | Niveau    |
-| ---: | ------------ | ------------------- | --------- |
-|  1.1 | Sprint 0     | Groepsproject       | Beginnend |
+|   ID | Beschrijving | Type          | Niveau    |
+| ---: | ------------ | ------------- | --------- |
+|  1.1 | Sprint 0     | Groepsproject | Beginnend |
 
 **Onderbouwing**
 
@@ -166,9 +169,9 @@ Het portfolio en je leeswijzer zijn groeiende tijdens het semester.*
 
 **Ontwikkelschaal**
 
-|   ID | Beschrijving | Type                | Niveau    |
-| ---: | ------------ | ------------------- | --------- |
-|  1.1 | Sprint 0     | Groepsproject       | Beginnend |
+|   ID | Beschrijving | Type          | Niveau    |
+| ---: | ------------ | ------------- | --------- |
+|  1.1 | Sprint 0     | Groepsproject | Beginnend |
 
 **Onderbouwing**
 
@@ -190,9 +193,9 @@ Het portfolio en je leeswijzer zijn groeiende tijdens het semester.*
 
 **Ontwikkelschaal**
 
-|   ID | Beschrijving | Type                | Niveau    |
-| ---: | ------------ | ------------------- | --------- |
-|  1.1 | Sprint 0     | Groepsproject       | Beginnend |
+|   ID | Beschrijving | Type          | Niveau    |
+| ---: | ------------ | ------------- | --------- |
+|  1.1 | Sprint 0     | Groepsproject | Beginnend |
 
 **Onderbouwing**
 
@@ -214,9 +217,9 @@ Het portfolio en je leeswijzer zijn groeiende tijdens het semester.*
 
 **Ontwikkelschaal**
 
-|   ID | Beschrijving | Type                | Niveau    |
-| ---: | ------------ | ------------------- | --------- |
-|  1.1 | Sprint 0     | Groepsproject       | Beginnend |
+|   ID | Beschrijving | Type          | Niveau    |
+| ---: | ------------ | ------------- | --------- |
+|  1.1 | Sprint 0     | Groepsproject | Beginnend |
 
 **Onderbouwing**
 
@@ -238,9 +241,9 @@ Het portfolio en je leeswijzer zijn groeiende tijdens het semester.*
 
 **Ontwikkelschaal**
 
-|   ID | Beschrijving | Type                | Niveau    |
-| ---: | ------------ | ------------------- | --------- |
-|  1.1 | Sprint 0     | Groepsproject       | Beginnend |
+|   ID | Beschrijving | Type          | Niveau    |
+| ---: | ------------ | ------------- | --------- |
+|  1.1 | Sprint 0     | Groepsproject | Beginnend |
 
 **Onderbouwing**
 
@@ -290,3 +293,24 @@ Nu is er feedback ontvangen van de volgende onderdelen:
   - Security by design is een goede om dieper op in te zoomen
   - Er staat best veel in mijn portfolio wat niet compleet aan bod is gekomen in de presentatie
 - Er is nog geen PoC opgebouwd
+
+[Presentatie](sources/sprint-1.pptx)
+
+**Sprint 2**
+
+Nu de 2de sprint is afgerond zijn er een aantal dingen waar de focus op is geweest, zo is de gehele authentication service opgezet i.c.m. de back-end (serverless based), waarbij de back-end deployed is via SAM. De deployment begint niet zomaar, maar zal via de [feature branch](https://github.com/delaygram/delay-authentication/issues/12) getest worden, in de [development branch](https://github.com/delaygram/delay-authentication/issues/13) zal wederom ook alles getest worden maar zal uiteindelijk ook deployed worden in een [staging environment](https://staging.delaygram.nl/) met tags om precies te weten wat momenteel in de staging environment gedeployed is. Als dit alles werkt zal de development branch gemerged worden met de [main](https://github.com/delaygram/delay-authentication/issues/14) en zal ook de [production environment](https://delaygram.nl/) gedeployed worden.
+
+Nu is er feedback ontvangen van de volgende onderdelen waar ik het persoonlijk niet mee eens ben, maar zal hieronder geformuleerd worden:
+
+- Mijn portfolio was te lang niet geupdate
+  - Dit heeft voornamelijk de reden gehad dat er andere dingen tussendoor zijn gekomen en omdat de focus ergens anders oplag, zoals het deployen van de volledige authentication service
+- Er wordt vergeleken met een andere student hoeveel commits ik heb waarbij ik er te weinig heb
+  - Ik zal het hier ook aangeven, maar sinds wanneer zijn commits een metric om te vergelijken met andere studenten. Nu heb ik rondgekeken en zie niet echt een repo waar ik maar 3 commits heb, daarnaast heb ik meerdere repos en mag het niet echt vergeleken worden met maar 1 repo
+- Het lijkt erop dat je main meer achterloopt op de features
+  - Naar mijn mening is dit vrij logisch, aangezien je de features maakt en vervolgens naar development merged en als dat allemaal goed is wordt er pas een poging gedaan om naar de main te pushen. Dus inderdaad ligt de main **ten alle tijden** achter op de features
+- Mijn projectboard volgende keer expliciet vermelden
+  - Dit is naar mijn mening gedaan, tenzij de docent meer diepgang in het projectboard wou, maar dat kon ik niet helemaal peilen
+- Volgend keer zal ik meer diepgang in de testen moeten opzoeken
+  - Dit is misschien een punt waar ik wel bij sta en zal volgende keer ook meer diepgang in de testen opzoeken
+
+[Presentatie](sources/sprint-2.pptx)
