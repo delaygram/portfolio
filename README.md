@@ -244,6 +244,8 @@ Hier moet het mogelijk zijn om uit te kunnen leggen wat een cloud platform provi
 
 </details>
 
+De bedoeling hier is om te kunnen onderzoeken hoe de beveiligingsrisico's voor de applicatie kunt minimaliseren en het toepassen van best practices binnen het gehele software ontwikkelproces.
+
 ## 4.8. Gedistribueerde gegevens
 
 <details>
