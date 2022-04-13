@@ -166,6 +166,8 @@ Er worden vaardigheden verwerft die nodig zijn voor een succesvolle ontwikkeling
 
 </details>
 
+Naast functionaliteit wordt er een architectuur van enterprise software ontwikkeld op basis van kwaliteitsattributen. Er wordt voornamelijk rekening gehouden met kenmerken die het meest relevant zijn voor bedrijfscontexten met grote hoeveelheden gegevens en gebeurtenissen. Daarbij is het belangrijk om het architectuur met oog op toekomstige aanpassingen te ontwikkelen. De ontwikkelomgeving ondersteund dit door zelfstandig de draaiende delen van de applicatie te kunnen implementeren en monitoren.
+
 ## 4.5. Development & Operations (DevOps)
 
 <details>
