@@ -140,6 +140,8 @@ Op context gebaseerd onderzoek verrichten is het de bedoeling om volgens plannin
 
 </details>
 
+Er worden vaardigheden verwerft die nodig zijn voor een succesvolle ontwikkeling. Zo moet er een bekende loopbaantraject zijn en kan er gereflecteerd worden op de kennis die het beste passen, rekening houdend met potentiele vaardigheden en ambities. Daarbij is het belangrijk te zijn om op de hoogte te zijn van software ontwikkeling trends en kunt deze signaleren.
+
 ## 4.4. Schaalbare architecturen
 
 <details>
