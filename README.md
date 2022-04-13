@@ -218,6 +218,8 @@ De bedoeling is om hier omgevingen en tools op te zetten wat mijn software devel
 
 </details>
 
+Hier moet het mogelijk zijn om uit te kunnen leggen wat een cloud platform provider is en (delen van) de applicatie kan implementeren op een cloud platform (bijvoorbeeld serverless computing, cloudopslag, cloudopslag, containerbeheer) deployen en de meerwaarde van deze clouddiensten voor de applicatie kunnen uitleggen.
+
 ## 4.7. Beveiliging door middel van ontwerp
 
 <details>
