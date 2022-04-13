@@ -270,6 +270,7 @@ De bedoeling hier is om te kunnen onderzoeken hoe de beveiligingsrisico's voor d
 
 </details>
 
+Het is benodigd om op de hoogte te zijn van specifieke gegevensvereisten voor bedrijfssystemen. Daarbij worden best practices toegepast voor gedistribueerde data tijdens het hele ontwikkelproces, zowel voor niet-functionele als functionele vereisten. Er wordt voornamelijk rekening gehouden met juridische en ethische kwesties.
 
 # 5. Reflectie 
 
