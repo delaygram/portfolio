@@ -1,4 +1,5 @@
 # 1. Contents
+
 - [1. Contents](#1-contents)
 - [2. Document historie](#2-document-historie)
 - [3. Introductie](#3-introductie)
@@ -24,19 +25,21 @@
 
 In de leezwijzer is het de bedoeling dat de lezer meegenomen wordt op de inhoud van het portfolio. De lezer kan daarmee zien waar hij/zij op een bepaald moment in het semester staat met betrekking tot je leeruitkomsten.
 
-Tijdens semester 6 is het de bedoeling om een persoonlijk project te maken, maar absoluut ook een project die in groepsverband uitgevoerd wordt. Zo is er een verdeling tijdens de week van dagen dat gewerkt wordt aan verschillende projecten. 
+Tijdens semester 6 is het de bedoeling om een persoonlijk project te maken, maar absoluut ook een project die in groepsverband uitgevoerd wordt. Zo is er een verdeling tijdens de week van dagen dat gewerkt wordt aan verschillende projecten.
 
 Nu is bij de groepsopdracht het volgende de bedoeling. Hier is een project gekozen om een architectuur voorstel te maken wat betrekking heeft op al bestaande systemen. Zo zijn er veel systemen binnen Fontys die gebruikt worden, maar niks met elkaar te maken hebben. Denk hier bijvoorbeeld aan docent informatie en projecten die uitgevoerd worden. Wat hier nog mist is een systeem dat deze informatie kan behandelen en modificeren om vervolgens gebruikt te kunnen worden binnen een matching systeem. Dat zal de taak worden van onze groepsopdracht.
 
-Naast een groepsopdracht is het ook de bedoeling om een persoonlijk project uit te voeren, hier is gekozen om een Instagram clone te maken. Deze clone is een project waar je een account aanmaakt en daarmee kan posten (foto's en/of korte video's), commentaar aanmaken en likes krijgen. Wat dit project interessant maakt is de architectuur op de achtergrond. Er wordt namelijk zwaar gebruik gemaakt van de cloud (in dit geval AWS) waarbij serverless een grote rol speelt. Het is de bedoeling dat verschillende bounded contexten gemaakt worden waarbij deze nouw met elkaar samen gaan werken om zo een integraal systeem te maken. 
+Naast een groepsopdracht is het ook de bedoeling om een persoonlijk project uit te voeren, hier is gekozen om een Instagram clone te maken. Deze clone is een project waar je een account aanmaakt en daarmee kan posten (foto's en/of korte video's), commentaar aanmaken en likes krijgen. Wat dit project interessant maakt is de architectuur op de achtergrond. Er wordt namelijk zwaar gebruik gemaakt van de cloud (in dit geval AWS) waarbij serverless een grote rol speelt. Het is de bedoeling dat verschillende bounded contexten gemaakt worden waarbij deze nouw met elkaar samen gaan werken om zo een integraal systeem te maken.
 
 Er is momenteel al redelijk wat kennis aanwezig van de volgende onderdelen:
+
 - Docker
 - AWS
 - Serverless
 - Deployment
 
 Tijdens het semester is de bedoeling dat er meer kennis opgedaan wordt over betreffende onderdelen om uiteindelijk als betere software engineer het semester uit te komen. Daarom is de bedoeling om betreffende de volgende onderdelen meer diepgang in te vinden:
+
 - AWS
 - Serverless
 - Kubernetes
@@ -64,7 +67,7 @@ In dit hoofdstuk zullen per onderdeel uitgelegd staan wat het leerdoel precies b
 ## 4.1. Enterprise-softwareontwikkeling door middel van teaminspanning
 
 <details>
-  <summary>Explanation</summary>
+  <summary>Explanation per sub-category</summary>
 
 > Uitleg leeruitkomst
 
@@ -95,12 +98,23 @@ In dit hoofdstuk zullen per onderdeel uitgelegd staan wat het leerdoel precies b
 
 Bij Enterprise-softwareontwikkeling is het de bedoeling om correcte developing platforms en frameworks uit te zoeken die goed passen bij de ontwikkeling van het software development met profecionele industrie standaarden. Daarbij is het belangrijk om deze kennis te delen met teamleden om de kennis te vergroten en versterken.
 
+**Ontwikkelschaal**
+
+|   ID | Beschrijving | Type          | Niveau    |
+| ---: | ------------ | ------------- | --------- |
+|  1.1 | Sprint 1     | Groepsproject | orienting |
+
+**Onderbouwing**
+
+*1.1: Sprint 1*
+
+**Reflectie op voortgang**
+
+*1.1: Sprint 0*
+
 ## 4.2. Op context gebaseerd onderzoek verrichten
 
-<details>
-  <summary>Explanation</summary>
-
-> Uitleg leeruitkomst
+Op context gebaseerd onderzoek verrichten is het de bedoeling om volgens planning professionele producten op te leveren die het resultaat zijn van een gestructureerd en methodisch onderzoek. Er is een kritische kijk aanwezig op het eigen werk, maar ook andermans werk. Zo moet er de mogelijkheid zijn om om onderzoeken te kunnen vergelijken met alternatieven, de gestructureerde en methodische aanpak te beoordelen en rekening houden met algemeen aanvaarde en ethische waarden.
 
 **Ontwikkelschaal**
 
@@ -108,174 +122,126 @@ Bij Enterprise-softwareontwikkeling is het de bedoeling om correcte developing p
 | ---: | ------------ | ------------- | --------- |
 |  1.1 | Sprint 0     | Groepsproject | orienting |
 
-**Reflectie op voortgang**
+**Onderbouwing**
 
 *1.1: Sprint 0*
 
-</details>
+**Reflectie op voortgang**
 
-Op context gebaseerd onderzoek verrichten is het de bedoeling om volgens planning professionele producten op te leveren die het resultaat zijn van een gestructureerd en methodisch onderzoek. Er is een kritische kijk aanwezig op het eigen werk, maar ook andermans werk. Zo moet er de mogelijkheid zijn om om onderzoeken te kunnen vergelijken met alternatieven, de gestructureerde en methodische aanpak te beoordelen en rekening houden met algemeen aanvaarde en ethische waarden.
+*1.1: Sprint 0*
 
 ## 4.3. Voorbereiding op een leven lang leren
 
-<details>
-  <summary>Explanation</summary>
-
-> Uitleg leeruitkomst
+Er worden vaardigheden verwerft die nodig zijn voor een succesvolle ontwikkeling. Zo moet er een bekende loopbaantraject zijn en kan er gereflecteerd worden op de kennis die het beste passen, rekening houdend met potentiele vaardigheden en ambities. Daarbij is het belangrijk te zijn om op de hoogte te zijn van software ontwikkeling trends en kunt deze signaleren.
 
 **Ontwikkelschaal**
 
 |   ID | Beschrijving | Type          | Niveau    |
 | ---: | ------------ | ------------- | --------- |
-|  1.1 | Sprint 0     | Groepsproject | Beginnend |
+|  1.1 | Sprint 0     | Groepsproject | orienting |
 
 **Onderbouwing**
 
 *1.1: Sprint 0*
 
-
 **Reflectie op voortgang**
 
 *1.1: Sprint 0*
-
-</details>
-
-Er worden vaardigheden verwerft die nodig zijn voor een succesvolle ontwikkeling. Zo moet er een bekende loopbaantraject zijn en kan er gereflecteerd worden op de kennis die het beste passen, rekening houdend met potentiele vaardigheden en ambities. Daarbij is het belangrijk te zijn om op de hoogte te zijn van software ontwikkeling trends en kunt deze signaleren.
 
 ## 4.4. Schaalbare architecturen
 
-<details>
-  <summary>Explanation</summary>
-
-> Uitleg leeruitkomst
+Naast functionaliteit wordt er een architectuur van enterprise software ontwikkeld op basis van kwaliteitsattributen. Er wordt voornamelijk rekening gehouden met kenmerken die het meest relevant zijn voor bedrijfscontexten met grote hoeveelheden gegevens en gebeurtenissen. Daarbij is het belangrijk om het architectuur met oog op toekomstige aanpassingen te ontwikkelen. De ontwikkelomgeving ondersteund dit door zelfstandig de draaiende delen van de applicatie te kunnen implementeren en monitoren.
 
 **Ontwikkelschaal**
 
 |   ID | Beschrijving | Type          | Niveau    |
 | ---: | ------------ | ------------- | --------- |
-|  1.1 | Sprint 0     | Groepsproject | Beginnend |
+|  1.1 | Sprint 0     | Groepsproject | orienting |
 
 **Onderbouwing**
 
 *1.1: Sprint 0*
 
-
 **Reflectie op voortgang**
 
 *1.1: Sprint 0*
-
-</details>
-
-Naast functionaliteit wordt er een architectuur van enterprise software ontwikkeld op basis van kwaliteitsattributen. Er wordt voornamelijk rekening gehouden met kenmerken die het meest relevant zijn voor bedrijfscontexten met grote hoeveelheden gegevens en gebeurtenissen. Daarbij is het belangrijk om het architectuur met oog op toekomstige aanpassingen te ontwikkelen. De ontwikkelomgeving ondersteund dit door zelfstandig de draaiende delen van de applicatie te kunnen implementeren en monitoren.
 
 ## 4.5. Development & Operations (DevOps)
 
-<details>
-  <summary>Explanation</summary>
-
-> Uitleg leeruitkomst
+De bedoeling is om hier omgevingen en tools op te zetten wat mijn software development proces ondersteund. Het streven is om zoveel mogelijk te automatiseren, dit om korte releasetijden en een hoge softwarekwaliteit mogelijk te maken.
 
 **Ontwikkelschaal**
 
 |   ID | Beschrijving | Type          | Niveau    |
 | ---: | ------------ | ------------- | --------- |
-|  1.1 | Sprint 0     | Groepsproject | Beginnend |
+|  1.1 | Sprint 0     | Groepsproject | orienting |
 
 **Onderbouwing**
 
 *1.1: Sprint 0*
 
-
 **Reflectie op voortgang**
 
 *1.1: Sprint 0*
-
-</details>
-
-De bedoeling is om hier omgevingen en tools op te zetten wat mijn software development proces ondersteund. Het streven is om zoveel mogelijk te automatiseren, dit om korte releasetijden en een hoge softwarekwaliteit mogelijk te maken.
 
 ## 4.6. Cloud Services
 
-<details>
-  <summary>Explanation</summary>
-
-> Uitleg leeruitkomst
+Hier moet het mogelijk zijn om uit te kunnen leggen wat een cloud platform provider is en (delen van) de applicatie kan implementeren op een cloud platform (bijvoorbeeld serverless computing, cloudopslag, cloudopslag, containerbeheer) deployen en de meerwaarde van deze clouddiensten voor de applicatie kunnen uitleggen.
 
 **Ontwikkelschaal**
 
 |   ID | Beschrijving | Type          | Niveau    |
 | ---: | ------------ | ------------- | --------- |
-|  1.1 | Sprint 0     | Groepsproject | Beginnend |
+|  1.1 | Sprint 0     | Groepsproject | orienting |
 
 **Onderbouwing**
 
 *1.1: Sprint 0*
 
-
 **Reflectie op voortgang**
 
 *1.1: Sprint 0*
-
-</details>
-
-Hier moet het mogelijk zijn om uit te kunnen leggen wat een cloud platform provider is en (delen van) de applicatie kan implementeren op een cloud platform (bijvoorbeeld serverless computing, cloudopslag, cloudopslag, containerbeheer) deployen en de meerwaarde van deze clouddiensten voor de applicatie kunnen uitleggen.
 
 ## 4.7. Beveiliging door middel van ontwerp
 
-<details>
-  <summary>Explanation</summary>
-
-> Uitleg leeruitkomst
+De bedoeling hier is om te kunnen onderzoeken hoe de beveiligingsrisico's voor de applicatie kunt minimaliseren en het toepassen van best practices binnen het gehele software ontwikkelproces.
 
 **Ontwikkelschaal**
 
 |   ID | Beschrijving | Type          | Niveau    |
 | ---: | ------------ | ------------- | --------- |
-|  1.1 | Sprint 0     | Groepsproject | Beginnend |
+|  1.1 | Sprint 0     | Groepsproject | orienting |
 
 **Onderbouwing**
 
 *1.1: Sprint 0*
 
-
 **Reflectie op voortgang**
 
 *1.1: Sprint 0*
-
-</details>
-
-De bedoeling hier is om te kunnen onderzoeken hoe de beveiligingsrisico's voor de applicatie kunt minimaliseren en het toepassen van best practices binnen het gehele software ontwikkelproces.
 
 ## 4.8. Gedistribueerde gegevens
 
-<details>
-  <summary>Explanation</summary>
-
-> Uitleg leeruitkomst
+Het is benodigd om op de hoogte te zijn van specifieke gegevensvereisten voor bedrijfssystemen. Daarbij worden best practices toegepast voor gedistribueerde data tijdens het hele ontwikkelproces, zowel voor niet-functionele als functionele vereisten. Er wordt voornamelijk rekening gehouden met juridische en ethische kwesties.
 
 **Ontwikkelschaal**
 
 |   ID | Beschrijving | Type          | Niveau    |
 | ---: | ------------ | ------------- | --------- |
-|  1.1 | Sprint 0     | Groepsproject | Beginnend |
+|  1.1 | Sprint 0     | Groepsproject | orienting |
 
 **Onderbouwing**
 
 *1.1: Sprint 0*
 
-
 **Reflectie op voortgang**
 
 *1.1: Sprint 0*
 
-</details>
-
-Het is benodigd om op de hoogte te zijn van specifieke gegevensvereisten voor bedrijfssystemen. Daarbij worden best practices toegepast voor gedistribueerde data tijdens het hele ontwikkelproces, zowel voor niet-functionele als functionele vereisten. Er wordt voornamelijk rekening gehouden met juridische en ethische kwesties.
-
-# 5. Reflectie 
+# 5. Reflectie
 
 <details>
-  <summary>Explanation</summary>
+  <summary>Explanation about reflection</summary>
 
 *Reflecteer hier per sprint op je (studieproces).*
 
@@ -300,6 +266,7 @@ In sprint 1 heeft voornamelijk de focus gelegen op het invullen van de documente
 Wat vervolgens wordt beschreven in het [Software Document](analyse/SOFTWARE%20DOCUMENT.md) zijn de requirements waar de focus wordt gelegd op de user stories, functional en non-functionals, welke projectmanagementtools worden gebruikt binnen het project, met daarnaast wat de loop van de DevOps pipelines worden, hoe het architectuur eruit gaat zien. Uiteindelijk wordt er nog een focus gelegd op de goals, planning, achievements en retrospective van de betreffende sprint.
 
 Nu is er feedback ontvangen van de volgende onderdelen:
+
 - Documentatie
   - Je hoofdvraag vergeet nog de context
   - Verwijzingen in de presentatie komen niet geheel overheen van de onderdelen die wel beschreven staan in de presentatie
