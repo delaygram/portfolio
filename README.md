@@ -15,10 +15,10 @@
 
 # 2. Document historie
 
-| Versie | Veranderingen                              | Datum      |
-| -----: | ------------------------------------------ | ---------- |
-|    0.1 | Eerste opzet document                      | 21-03-2022 |
-|    0.2 | Reflectie sprint 2<br>Invullen introductie | 13-04-2022 |
+| Versie | Veranderingen                                                                                  | Datum      |
+| -----: | ---------------------------------------------------------------------------------------------- | ---------- |
+|    0.1 | Eerste opzet document                                                                          | 21-03-2022 |
+|    0.2 | Reflectie sprint 2<br>Invullen introductie<br>Invullen uitleg leeruitkomsten en sub-onderdelen | 13-04-2022 |
 
 # 3. Introductie
 
@@ -59,6 +59,8 @@ Waarom AWS en Serverless weer in de lijst staan is dat in deze onderdelen nog ve
 
 </details>
 
+In dit hoofdstuk zullen per onderdeel uitgelegd staan wat het leerdoel precies betreft en wat de uiteindelijke resultaten zullen zijn. Zo wordt een goed beeld geschets wat uiteindelijk opgeleverd moet worden met daarbij de voortgang van de betreffende leeruitkomsten.
+
 ## 4.1. Enterprise-softwareontwikkeling door middel van teaminspanning
 
 <details>
@@ -90,6 +92,8 @@ Waarom AWS en Serverless weer in de lijst staan is dat in deze onderdelen nog ve
 *Mijn semester coach gaf aan (link naar feedback) dat we als groep een duidelijke scrum proces moeten toepassen. We zijn nog niet goed in staat om inzicht te geven in de burndown. Daarvoor is een strakkere storypoint planning en remainng storypoint schatting per stand-up nodig. Als het proces overtuigend hebben neergezet, gaan we op de ontwikkelschaal naar ‘beginning’*
 
 </details>
+
+Bij Enterprise-softwareontwikkeling is het de bedoeling om correcte developing platforms en frameworks uit te zoeken die goed passen bij de ontwikkeling van het software development met profecionele industrie standaarden. Daarbij is het belangrijk om deze kennis te delen met teamleden om de kennis te vergroten en versterken.
 
 ## 4.2. Op context gebaseerd onderzoek verrichten
 
