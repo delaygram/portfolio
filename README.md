@@ -44,6 +44,10 @@ Het portfolio en je leeswijzer zijn groeiende tijdens het semester.*
 
 </details>
 
+Tijdens semester 6 is het de bedoeling om een persoonlijk project te maken, maar absoluut ook een project die in groepsverband uitgevoerd wordt. Zo is er een verdeling tijdens de week van dagen dat gewerkt wordt aan verschillende projecten. 
+
+Nu is bij de groepsopdracht het volgende de bedoeling. Hier is een project gekozen om een architectuur voorstel te maken wat betrekking heeft op al bestaande systemen. Zo zijn er veel systemen binnen Fontys die gebruikt worden, maar niks met elkaar te maken hebben. Denk hier bijvoorbeeld aan docent informatie en projecten die uitgevoerd worden. Wat hier nog mist is een systeem dat deze informatie kan behandelen en modificeren om vervolgens gebruikt te kunnen worden binnen een matching systeem. Dat zal de taak worden van onze groepsopdracht.
+
 
 
 # 4. Leeruitkomsten
