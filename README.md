@@ -48,7 +48,7 @@ Tijdens semester 6 is het de bedoeling om een persoonlijk project te maken, maar
 
 Nu is bij de groepsopdracht het volgende de bedoeling. Hier is een project gekozen om een architectuur voorstel te maken wat betrekking heeft op al bestaande systemen. Zo zijn er veel systemen binnen Fontys die gebruikt worden, maar niks met elkaar te maken hebben. Denk hier bijvoorbeeld aan docent informatie en projecten die uitgevoerd worden. Wat hier nog mist is een systeem dat deze informatie kan behandelen en modificeren om vervolgens gebruikt te kunnen worden binnen een matching systeem. Dat zal de taak worden van onze groepsopdracht.
 
-
+Naast een groepsopdracht is het ook de bedoeling om een persoonlijk project uit te voeren, hier is gekozen om een Instagram clone te maken. Deze clone is een project waar je een account aanmaakt en daarmee kan posten (foto's en/of korte video's), commentaar aanmaken en likes krijgen. Wat dit project interessant maakt is de architectuur op de achtergrond. Er wordt namelijk zwaar gebruik gemaakt van de cloud (in dit geval AWS) waarbij serverless een grote rol speelt. Het is de bedoeling dat verschillende bounded contexten gemaakt worden waarbij deze nouw met elkaar samen gaan werken om zo een integraal systeem te maken. 
 
 # 4. Leeruitkomsten
 
