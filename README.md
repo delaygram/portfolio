@@ -12,6 +12,7 @@
   - [4.6. Cloud Services](#46-cloud-services)
   - [4.7. Beveiliging door middel van ontwerp](#47-beveiliging-door-middel-van-ontwerp)
   - [4.8. Gedistribueerde gegevens](#48-gedistribueerde-gegevens)
+  - [4.9. Leeruitkomsten matrix](#49-leeruitkomsten-matrix)
 - [5. Reflectie](#5-reflectie)
 
 # 2. Document historie
@@ -254,6 +255,61 @@ Het is benodigd om op de hoogte te zijn van specifieke gegevensvereisten voor be
 **Reflectie op voortgang**
 
 *1.1: Sprint 0*
+
+## 4.9. Leeruitkomsten matrix
+
+In dit hoofdstuk is te zien wat de momentele uitkomsten zijn van de betreffende sprints m.b.t. leeruitkomsten.
+
+**Legenda**
+
+✴️ - Student evaluatie
+
+✳️ - Docent evaluatie
+
+**Sprint 0**
+
+|     | Undefined | Orienting | Beginning | Proficient | Advanced |
+| --- | :-------: | :-------: | :-------: | :--------: | :------: |
+| LU1 |           |    ✴️✳️     |           |            |          |
+| LU2 |           |    ✴️✳️     |           |            |          |
+| LU3 |    ✴️✳️     |           |           |            |          |
+| LU4 |    ✴️✳️     |           |           |            |          |
+| LU5 |    ✴️✳️     |           |           |            |          |
+| LU6 |    ✴️✳️     |           |           |            |          |
+| LU7 |    ✴️✳️     |           |           |            |          |
+| LU8 |    ✴️✳️     |           |           |            |          |
+
+**Sprint 1**
+
+|     | Undefined | Orienting | Beginning | Proficient | Advanced |
+| --- | :-------: | :-------: | :-------: | :--------: | :------: |
+| LU1 |           |    ✴️✳️     |           |            |          |
+| LU2 |           |    ✴️✳️     |           |            |          |
+| LU3 |    ✴️✳️     |           |           |            |          |
+| LU4 |           |           |    ✴️✳️     |            |          |
+| LU5 |    ✴️✳️     |           |           |            |          |
+| LU6 |    ✴️✳️     |           |           |            |          |
+| LU7 |    ✴️✳️     |           |           |            |          |
+| LU8 |    ✴️✳️     |           |           |            |          |
+
+**Sprint 2**
+
+|     | Undefined | Orienting | Beginning | Proficient | Advanced |
+| --- | :-------: | :-------: | :-------: | :--------: | :------: |
+| LU1 |     ✳️     |     ✴️     |           |            |          |
+| LU2 |     ✳️     |     ✴️     |           |            |          |
+| LU3 |    ✴️✳️     |           |           |            |          |
+| LU4 |           |           |    ✴️✳️     |            |          |
+| LU5 |           |           |     ✳️     |     ✴️      |          |
+| LU6 |           |           |     ✳️     |     ✴️      |          |
+| LU7 |    ✴️✳️     |           |           |            |          |
+| LU8 |    ✴️✳️     |           |           |            |          |
+
+**Legenda**
+
+✴️ - Student evaluatie
+
+✳️ - Docent evaluatie
 
 # 5. Reflectie
 
