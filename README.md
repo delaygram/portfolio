@@ -21,6 +21,7 @@
 | -----: | ---------------------------------------------------------------------------------------------- | ---------- |
 |    0.1 | Eerste opzet document                                                                          | 21-03-2022 |
 |    0.2 | Reflectie sprint 2<br>Invullen introductie<br>Invullen uitleg leeruitkomsten en sub-onderdelen | 13-04-2022 |
+|    0.3 | Aanmaken en invullen leeruitkomst matrix                                                       | 15-04-2022 |
 
 # 3. Introductie
 
