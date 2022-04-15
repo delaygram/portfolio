@@ -1,26 +1,19 @@
 matrix:
-- name: Markdown
-  expect_match: false
-  apsell:
-    lang: nl
-    d: nl_NL
-  dictionary:
-    wordlists:
-    - wordlist.txt
-    output: wordlist.dic
-    encoding: utf-8
+- name: markdown
   pipeline:
-  - pyspelling.filters.markdown:
-      markdown_extensions:
-      - markdown.extensions.extra:
-  - pyspelling.filters.html:
-      comments: true
-      attributes:
-      - title
-      - alt
-      ignores:
-      - ':matches(code, pre)'
-      - 'code'
-      - 'pre'
+  - pyspelling.filters.text
   sources:
   - '**/*.md'
+  aspell:
+    lang: nl
+  default_encoding: utf-8
+  expect_match: false
+- pyspelling.filters.markdown:
+- pyspelling.filters.html:
+    comments: false
+    attributes:
+    - title
+    - alt
+    ignores:
+    - code
+    - pre
