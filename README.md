@@ -75,10 +75,11 @@ In dit hoofdstuk zullen per onderdeel uitgelegd staan wat het leerdoel precies b
 
 **Ontwikkelschaal (undefined, orienting, beginning, proficient, advanced)**
 
-|   ID | Beschrijving | Type                | Niveau    |
-| ---: | ------------ | ------------------- | --------- |
-|  1.1 | Sprint 0     | Groepsproject       | orienting |
-|  1.2 | Sprint 1     | Individueel project | orienting |
+|   ID | Beschrijving | Type          | Niveau    |
+| ---: | ------------ | ------------- | --------- |
+|  1.1 | Sprint 0     | Groepsproject | Undefined |
+|  1.2 | Sprint 1     | Groepsproject | orienting |
+|  1.3 | Sprint 2     | Groepsproject | beginning |
 
 **Onderbouwing**
 
@@ -104,15 +105,27 @@ Bij Enterprise-softwareontwikkeling is het de bedoeling om correcte developing p
 
 |   ID | Beschrijving | Type          | Niveau    |
 | ---: | ------------ | ------------- | --------- |
-|  1.1 | Sprint 1     | Groepsproject | orienting |
+|  1.1 | Sprint 0     | Groepsproject | undefined |
+|  1.2 | Sprint 1     | Groepsproject | orienting |
 
 **Onderbouwing**
 
-*1.1: Sprint 1*
+*1.1: Sprint 0*
+
+In deze sprint hebben wij als groep slecht gewerkt naar persoonlijke mening en hebben niet de volle potentie kunnen laten zien wat er uiteindelijk mogelijk is, daarvoor het niveau *undefined*.
+
+*1.2: Sprint 1*
+In deze sprint is er veel voortgang gekomen in het opzicht van teamverband en developing, zo zijn er meerdere taken en regels verdeeld binnen de groep waardoor het teamverband met grote maten is verbeterd. Er worden duidelijke taken bij mensen neergelegd en er wordt in groepsverband taken verzonnen en bijgehouden.
 
 **Reflectie op voortgang**
 
 *1.1: Sprint 0*
+
+De docent heeft aangegeven dat er veel werk nodig is om hier een betere voortgang in te kunnen zien, denk aan contacten leggen, mensen meer betrekken in de voorgang etc. Daarnaast is er nog niet veel ontwikkeling geweest in het programmeren en hebben hierin helaas nog niet veel kunnen laten zien.
+
+*1.2: Sprint 1*
+
+Er is veel voortgang geweest in het opzicht van teamverband, maar er kunnen zeker nog dingen verbeterd worden.
 
 ## 4.2. Op context gebaseerd onderzoek verrichten
 
