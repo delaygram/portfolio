@@ -65,23 +65,6 @@ Waarom AWS en Serverless weer in de lijst staan is dat in deze onderdelen nog ve
 
 In dit hoofdstuk zullen per onderdeel uitgelegd staan wat het leerdoel precies betreft en wat de uiteindelijke resultaten zullen zijn. Zo wordt een goed beeld geschets wat uiteindelijk opgeleverd moet worden met daarbij de voortgang van de betreffende leeruitkomsten.
 
-|     | Undefined | Orienting | Beginning | Proficient | Advanced |
-| --- | :-------: | :-------: | :-------: | :--------: | :------: |
-| LU1 |           |     ✴️     |           |            |          |
-| LU2 |           |     ✴️     |           |            |          |
-| LU3 |           |           |     ✴️     |            |          |
-| LU4 |           |           |           |     ✴️      |          |
-| LU5 |           |           |           |     ✴️      |          |
-| LU6 |           |           |           |     ✴️      |          |
-| LU7 |           |     ✴️     |           |            |          |
-| LU8 |           |     ✴️     |           |            |          |
-
-**Legenda**
-
-✴️ - Student evaluatie
-
-✳️ - Docent evaluatie
-
 ## 4.1. Enterprise-softwareontwikkeling door middel van teaminspanning
 
 <details>
