@@ -136,14 +136,35 @@ Op context gebaseerd onderzoek verrichten is het de bedoeling om volgens plannin
 |   ID | Beschrijving | Type          | Niveau    |
 | ---: | ------------ | ------------- | --------- |
 |  1.1 | Sprint 0     | Groepsproject | orienting |
+|  1.2 | Sprint 1     | Groepsproject | orienting |
+|  1.3 | Sprint 2     | Groepsproject | undefined |
 
 **Onderbouwing**
 
 *1.1: Sprint 0*
 
+Tijdens de beginfase is er een onderzoek opgezet dat betrekking heeft tot Integration Patterns hier was de focus gelegd op Messaging Endpoints, waarbij de strategieen, vragen etc waren opgezet.
+
+*1.2: Sprint 1*
+
+Onderzoek is verder uitgewerkt m.b.t. sub-onderdelen en begint redelijk vorm te krijgen. Daarbij zijn experimenten gemaakt om een beter beeld te krijgen wat nu precies Messaging Endpoints zijn.
+
+*1.3: Sprint 2*
+
+Aantal sub-vragen zijn beantwoorde met de betreffende conclusies om uiteindelijk bij een conclusie te komen van de hoofdvraag.
+
 **Reflectie op voortgang**
 
 *1.1: Sprint 0*
+
+De vragen waren niet correct geformuleerd en zullen nog refined moeten worden.
+
+*1.2: Sprint 1*
+
+Het is een mooi begin van het onderzoeksdocument, echter moet per vraag de onderzoeksmethodes aangewezen worden om het document volledig te maken.
+
+*1.3: Sprint 2*
+
 
 ## 4.3. Voorbereiding op een leven lang leren
 
