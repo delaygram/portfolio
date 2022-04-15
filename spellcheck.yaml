@@ -2,7 +2,8 @@ matrix:
 - name: Markdown
   expect_match: false
   apsell:
-    mode: nl
+    lang: nl
+    d: nl_NL
   dictionary:
     wordlists:
     - wordlist.txt
