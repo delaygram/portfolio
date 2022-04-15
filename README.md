@@ -289,11 +289,6 @@ In dit hoofdstuk is te zien wat de momentele uitkomsten zijn van de betreffende 
 | LU7 |    ✴️✳️     |           |           |            |          |
 | LU8 |    ✴️✳️     |           |           |            |          |
 
-**Legenda**
-
-✴️ - Student evaluatie
-
-✳️ - Docent evaluatie
 
 # 5. Reflectie
 
