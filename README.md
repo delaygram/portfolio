@@ -105,25 +105,25 @@ Bij Enterprise-softwareontwikkeling is het de bedoeling om correcte developing p
 
 |   ID | Beschrijving | Type          | Niveau    |
 | ---: | ------------ | ------------- | --------- |
-|  1.1 | Sprint 0     | Groepsproject | undefined |
-|  1.2 | Sprint 1     | Groepsproject | orienting |
+|  0.1 | Sprint 0     | Groepsproject | undefined |
+|  1.1 | Sprint 1     | Groepsproject | orienting |
 
 **Onderbouwing**
 
-*1.1: Sprint 0*
+*0.1: Sprint 0*
 
 In deze sprint hebben wij als groep slecht gewerkt naar persoonlijke mening en hebben niet de volle potentie kunnen laten zien wat er uiteindelijk mogelijk is, daarvoor het niveau *undefined*.
 
-*1.2: Sprint 1*
+*1.1: Sprint 1*
 In deze sprint is er veel voortgang gekomen in het opzicht van teamverband en developing, zo zijn er meerdere taken en regels verdeeld binnen de groep waardoor het teamverband met grote maten is verbeterd. Er worden duidelijke taken bij mensen neergelegd en er wordt in groepsverband taken verzonnen en bijgehouden.
 
 **Reflectie op voortgang**
 
-*1.1: Sprint 0*
+*0.1: Sprint 0*
 
 De docent heeft aangegeven dat er veel werk nodig is om hier een betere voortgang in te kunnen zien, denk aan contacten leggen, mensen meer betrekken in de voorgang etc. Daarnaast is er nog niet veel ontwikkeling geweest in het programmeren en hebben hierin helaas nog niet veel kunnen laten zien.
 
-*1.2: Sprint 1*
+*1.1: Sprint 1*
 
 Er is veel voortgang geweest in het opzicht van teamverband, maar er kunnen zeker nog dingen verbeterd worden.
 
@@ -135,35 +135,46 @@ Op context gebaseerd onderzoek verrichten is het de bedoeling om volgens plannin
 
 |   ID | Beschrijving | Type          | Niveau    |
 | ---: | ------------ | ------------- | --------- |
-|  1.1 | Sprint 0     | Groepsproject | orienting |
-|  1.2 | Sprint 1     | Groepsproject | orienting |
-|  1.3 | Sprint 2     | Groepsproject | undefined |
+|  0.1 | Sprint 0     | Groepsproject | orienting |
+|  1.1 | Sprint 1     | Groepsproject | orienting |
+| 1.2 | Sprint 1 | Individueel project | orienting |
+|  1.1 | Sprint 2     | Groepsproject | undefined |
 
 **Onderbouwing**
 
-*1.1: Sprint 0*
+*0.1: Sprint 0*
 
 Tijdens de beginfase is er een onderzoek opgezet dat betrekking heeft tot Integration Patterns hier was de focus gelegd op Messaging Endpoints, waarbij de strategieen, vragen etc waren opgezet.
 
-*1.2: Sprint 1*
+*1.1: Sprint 1*
 
 Onderzoek is verder uitgewerkt m.b.t. sub-onderdelen en begint redelijk vorm te krijgen. Daarbij zijn experimenten gemaakt om een beter beeld te krijgen wat nu precies Messaging Endpoints zijn.
 
-*1.3: Sprint 2*
+*1.2: Sprint 1*
+
+Tijdens de start van het individueel project is er een onderzoeksdocument opgezet die betrekking heeft tot het uitzoeken van de cloud, hier is een start gemaakt dat betrekking heeft tot onderzoeksmethodieken, vragen en opzet document.
+
+*2.1: Sprint 2*
 
 Aantal sub-vragen zijn beantwoorde met de betreffende conclusies om uiteindelijk bij een conclusie te komen van de hoofdvraag.
 
 **Reflectie op voortgang**
 
-*1.1: Sprint 0*
+*0.1: Sprint 0*
 
 De vragen waren niet correct geformuleerd en zullen nog refined moeten worden.
 
-*1.2: Sprint 1*
+*1.1: Sprint 1*
 
 Het is een mooi begin van het onderzoeksdocument, echter moet per vraag de onderzoeksmethodes aangewezen worden om het document volledig te maken.
 
-*1.3: Sprint 2*
+*1.2: Sprint 1*
+
+n.v.t.
+
+*2.1: Sprint 2*
+
+// TODO: Oplevering is binnenkort
 
 
 ## 4.3. Voorbereiding op een leven lang leren
@@ -174,7 +185,7 @@ Er worden vaardigheden verwerft die nodig zijn voor een succesvolle ontwikkeling
 
 |   ID | Beschrijving | Type          | Niveau    |
 | ---: | ------------ | ------------- | --------- |
-|  1.1 | Sprint 0     | Groepsproject | orienting |
+|  1.1 | Sprint 2     | Groepsproject | orienting |
 
 **Onderbouwing**
 
