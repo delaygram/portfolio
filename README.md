@@ -299,16 +299,6 @@ In dit hoofdstuk is te zien wat de momentele uitkomsten zijn van de betreffende 
 
 *Waar loop je vast, wat gaat er goed, waar is hulp nodig. Hier gaat het dus niet over de inhoud, die heb je bij de leeruitkomsten beschreven.*
 
-**Sprint 1**
-
-**Sprint 2**
-
-**Sprint 3**
-
-**Sprint 4**
-
-**Sprint 5**
-
 </details>
 
 **Sprint 1**
