@@ -1,0 +1,16 @@
+name: Spellcheck
+on:
+  push:
+    paths:
+      - '**.md'
+jobs:
+  spellcheck:
+    name: Check spelling
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    if: "!contains(github.event.head_commit.message, '[no spell check]')"
+    steps:
+    - name: TypoCheck
+      uses: typoci/spellcheck-action@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

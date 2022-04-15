@@ -101,7 +101,7 @@ Naast alle planningen zijn er belangrijke data die eventueel invloed kunnen hebb
 
 | Datum      | Gebeurtenis                                                                                                |
 | ---------- | ---------------------------------------------------------------------------------------------------------- |
-| 20-02-2022 | [Project Pitche](https://fhict.instructure.com/courses/12090/modules/items/751927)                          |
+| 20-02-2022 | [Project Pitch](https://fhict.instructure.com/courses/12090/modules/items/751927)                          |
 | 13-03-2022 | [Emerging Trends Research: Plan](https://fhict.instructure.com/courses/12090/modules/items/751924)         |
 | 20-03-2022 | [Sprint 1](https://fhict.instructure.com/courses/12090/modules/items/751928)                               |
 | 10-04-2022 | [Sprint 2](https://fhict.instructure.com/courses/12090/modules/items/751929)                               |
