@@ -129,7 +129,7 @@ gantt
 
 ## 4.7. Onderzoeksplan
 
-Alle onderzoeken zullen uitgevoerd worden met de Methode Toolkit HBO-i. Dit framework biedt gebruikers de mogelijkheid geschikte onderzoeksmethoden te selecteren, geeft aanwijzingen voor het gebruik en wijst naar geschikte bronnen om meer diepgang te geven.
+Alle onderzowrefewsaweken zullen uitgevoerd worden met de Methode Toolkit HBO-i. Dit framework biedt gebruikers de mogelijkheid geschikte onderzoeksmethoden te selecteren, geeft aanwijzingen voor het gebruik en wijst naar geschikte bronnen om meer diepgang te geven.
 
 Voor een beschrijving van de onderzoeksmethodes, vindt hier onder een korte beschrijving van de verschillende methodes.
 
