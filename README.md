@@ -185,15 +185,17 @@ Er worden vaardigheden verwerft die nodig zijn voor een succesvolle ontwikkeling
 
 |   ID | Beschrijving | Type          | Niveau    |
 | ---: | ------------ | ------------- | --------- |
-|  1.1 | Sprint 2     | Groepsproject | orienting |
+|  3.1 | Sprint 3     | Individueel project | beginning |
 
 **Onderbouwing**
 
-*1.1: Sprint 0*
+*3.1: Sprint 3*
+
+Tijdens de start van deze sprint ben ik bij tech talks geweest om mijn kennis te kunnen verbreden over de onderdelen API Management en Angular project creation.
 
 **Reflectie op voortgang**
 
-*1.1: Sprint 0*
+*3.1: Sprint 3*
 
 ## 4.4. Schaalbare architecturen
 
