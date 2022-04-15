@@ -261,7 +261,7 @@ Het is benodigd om op de hoogte te zijn van specifieke gegevensvereisten voor be
 
 **Sprint 1**
 
-In sprint 1 heeft voornamelijk de focus gelegen op het invullen van de documenten betreffende [Projectplan](analyse/PROJECTPLAN.md) en het [Software Document](analyse/SOFTWARE%20DOCUMENT.md). In het [Projectplan](analyse/PROJECTPLAN.md) staat beschreven wat voor een project gemaakt zal worden en wat het uiteindelijke doel is. Daarnaast wordt de focus gelegd op de strategie, onderzoek, de uiteindelijke eindproducten, testaanpak en teststrategie, de technieken die toegepast zullen worden tijdens het project en de configuratiemanagement binnen het project.
+In sprint 1 heeft voornmelijk de focus gelegen op het invullen van de documenten betreffende [Projectplan](analyse/PROJECTPLAN.md) en het [Software Document](analyse/SOFTWARE%20DOCUMENT.md). In het [Projectplan](analyse/PROJECTPLAN.md) staat beschreven wat voor een project gemaakt zal worden en wat het uiteindelijke doel is. Daarnaast wordt de focus gelegd op de strategie, onderzoek, de uiteindelijke eindproducten, testaanpak en teststrategie, de technieken die toegepast zullen worden tijdens het project en de configuratiemanagement binnen het project.
 
 Wat vervolgens wordt beschreven in het [Software Document](analyse/SOFTWARE%20DOCUMENT.md) zijn de requirements waar de focus wordt gelegd op de user stories, functional en non-functionals, welke projectmanagementtools worden gebruikt binnen het project, met daarnaast wat de loop van de DevOps pipelines worden, hoe het architectuur eruit gaat zien. Uiteindelijk wordt er nog een focus gelegd op de goals, planning, achievements en retrospective van de betreffende sprint.
 
