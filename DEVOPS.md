@@ -34,7 +34,7 @@ In een pipeline moeten veel onderdelen meegenomen worden om uiteindleijk een vol
 
 ## 5.1 feature/*
 
-![feature pipeline](img/feature-pipline.svg)
+![feature pipeline](/sources/feature-pipline.drawio.svg)
 
 De feature pipeline zal de pipelinezijn die het meeste gaat draaien, als je ziet in [Feature pipeline](https://github.com/delaygram/delay-frontend/issues/6) is te zien welke stappen allemaal uitgevoerd zullen worden tijdens een push event met de branch naam `feature/*`.
 
@@ -108,7 +108,7 @@ jobs:
 
 ## development
 
-![Development pipeline](img/develop-master-pipeline.svg)
+![Development pipeline](/sources/develop-pipeline.drawio.svg)
 
 In de development pipeline is het de bedoeling om dezelfde stappen uit te voeren die ook in de `feature/*` pipeline staan, maar hier worden een aantal extra stappen uitgevoerd, denk hier aan deployment naar de staging `environment`. De stappen die **extra** worden uitgevoerd, staan hieronder uitgelegd:
 - **Feature:** Alle stappen van de [feature pipeline](#51-feature)
