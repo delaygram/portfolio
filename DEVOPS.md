@@ -1,29 +1,27 @@
 # 1. Inhoud
 - [1. Inhoud](#1-inhoud)
 - [2. Document historie](#2-document-historie)
-- [3. Doel van document](#3-doel-van-document)
-- [4. Introductie](#4-introductie)
-- [5. Stappen](#5-stappen)
-  - [5.1. feature/**](#51-feature)
-  - [5.2. development](#52-development)
-  - [5.3. main](#53-main)
-- [6. Conclusie](#6-conclusie)
+- [3. Introductie](#3-introductie)
+- [4. Stappen](#4-stappen)
+  - [4.1. feature/**](#41-feature)
+  - [4.2. development](#42-development)
+  - [4.3. main](#43-main)
+- [5. Conclusie](#5-conclusie)
 
 # 2. Document historie
 
 | Versie | Veranderingen                                                                                  | Datum      |
 | -----: | ---------------------------------------------------------------------------------------------- | ---------- |
 |    0.1 | Eerste opzet document                                                                          | 19-04-2022 |
+|    0.2 | Verschillende pipelines beschrijvingen toegevoegd                                              | 19-04-2022 |
 
-# 3. Doel van document
+# 3. Introductie
 
 Met dit document wil ik bewijzen dat ik een fatsoenlijke CI/CD pipeline op kan zetten met de benodigde onderdelen om ervoor te zorgen dat alleen kwaliteit wordt opgeleverd naar de cloud services toe.
 
-# 4. Introductie
-
 Voorheen is er voornamelijk bezig geweest met het gebruik van Jenkins en Jenkins pipelines, echter is de kennis van GitHub Actions nog redelijk summier waarbij dit semester de bedoeling is om de kennis hiervan uit te breiden tot een volwaardig niveau.
 
-# 5. Stappen
+# 4. Stappen
 
 Om een pipeline op te kunnen zetten is het de bedoeling dat in de folder `.github/workflows` een `yml` bestand wordt neergezet met een passende naam.
 
@@ -33,7 +31,7 @@ In een pipeline moeten veel onderdelen meegenomen worden om uiteindleijk een vol
 - development
 - main
 
-## 5.1. feature/**
+## 4.1. feature/**
 
 ![feature pipeline](sources/feature-pipline.drawio.svg)
 
@@ -108,7 +106,7 @@ jobs:
 
 > **Source:** [Feature pipeline](https://github.com/delaygram/delay-frontend/blob/main/.github/workflows/front.feature.push.yml)
 
-## 5.2. development
+## 4.2. development
 
 ![Development pipeline](/sources/develop-pipeline.drawio.svg)
 
@@ -212,7 +210,7 @@ jobs:
 ```
 > **Source:** [Development pipeline](https://github.com/delaygram/delay-frontend/blob/main/.github/workflows/front.develop.push.yml)
 
-## 5.3. main
+## 4.3. main
 ![Main pipeline](/sources/main-pipeline.drawio.svg)
 
 In de main pipeline loopt het net wat anders, hier hoeven namelijk geen tests meer uitgevoerd worden, omdat deze gevalideerd en gecontroleerd zijn in de feature en development pipelines. Daarvoor worden de stappen van de main pipeline hieronder toegelicht:
@@ -291,6 +289,6 @@ jobs:
 ```
 > **Source:** [Main pipeline](https://github.com/delaygram/delay-frontend/blob/main/.github/workflows/front.main.push.yml)
 
-# 6. Conclusie
+# 5. Conclusie
 
 Nu de pipelines staan en de builds en test worden uitgevoerd bij elke push, is er geen omkijken meer naar het deployen van de applicatie, linting van de applicatie en validatie in SonarCloud. Wat dit uiteindelijk wilt zeggen is dat er veel handmatig werk is komen te vervallen, waardoor er meer tijd over is voor het developen van de applicatie.
