@@ -7,6 +7,7 @@
   - [5.1. feature/**](#51-feature)
   - [5.2. development](#52-development)
   - [5.3. main](#53-main)
+- [6. Conclusie](#6-conclusie)
 
 # 2. Document historie
 
@@ -213,3 +214,83 @@ jobs:
 
 ## 5.3. main
 ![Main pipeline](/sources/main-pipeline.drawio.svg)
+
+In de main pipeline loopt het net wat anders, hier hoeven namelijk geen tests meer uitgevoerd worden, omdat deze gevalideerd en gecontroleerd zijn in de feature en development pipelines. Daarvoor worden de stappen van de main pipeline hieronder toegelicht:
+- **Set-up node:** In het begin van de pipeline wordt node opgezet, de huidige cached versie opgehaald, missende dependencies geinstalleerd
+- **Build production:** Nu is het de bedoeling om de production build te bouwen om ook de correcte environments beschikbaar te krijgen
+- **Deploy production:** De applicatie wordt live gezet in de productie opgeving die te bereiken is via [https://delaygram.nl/](https://delaygram.nl/)
+- **Tag production:** Er wordt een production tag neergezet met de naam `production` om te zien welke commit momenteel op de live omgeving staat
+
+```yaml
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  build:
+    name: Build and test
+    runs-on: ubuntu-20.04
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Cache node modules
+        id: cache-nodemodules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+      - name: Install Dependencies
+        if: steps.cache-nodemodules.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Install angular CLI
+        run: npm i -g @angular/cli
+
+      - name: Build
+        run: ng build --configuration production
+
+      - name: Set up AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Setup Git
+        run: |
+          git config --local user.email ${{ secrets.EMAIL }}
+          git config --local user.name ${{ github.actor }}
+      - name: Deploy to production bucket
+        run: aws s3 sync dist/delay-frontend s3://delaygram-prod/
+
+      - name: Run invalidation on production CloudFront
+        run: aws cloudfront create-invalidation --distribution-id E1UYS7U2IXL3JN --paths "/*"
+
+      - name: Tag production
+        run: |
+          git tag -a production -m "Tag for github production"
+          git push origin production
+```
+> **Source:** [Main pipeline](https://github.com/delaygram/delay-frontend/blob/main/.github/workflows/front.main.push.yml)
+
+# 6. Conclusie
+
+Nu de pipelines staan en de builds en test worden uitgevoerd bij elke push, is er geen omkijken meer naar het deployen van de applicatie, linting van de applicatie en validatie in SonarCloud. Wat dit uiteindelijk wilt zeggen is dat er veel handmatig werk is komen te vervallen, waardoor er meer tijd over is voor het developen van de applicatie.
