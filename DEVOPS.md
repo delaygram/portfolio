@@ -4,9 +4,9 @@
 - [3. Doel van document](#3-doel-van-document)
 - [4. Introductie](#4-introductie)
 - [5. Stappen](#5-stappen)
-  - [5.1 feature/*](#51-feature)
-  - [development](#development)
-  - [5.3 main](#53-main)
+  - [5.1. feature/**](#51-feature)
+  - [5.2. development](#52-development)
+  - [5.3. main](#53-main)
 
 # 2. Document historie
 
@@ -32,11 +32,11 @@ In een pipeline moeten veel onderdelen meegenomen worden om uiteindleijk een vol
 - development
 - main
 
-## 5.1 feature/*
+## 5.1. feature/**
 
-![feature pipeline](/sources/feature-pipline.drawio.svg)
+![feature pipeline](sources/feature-pipline.drawio.svg)
 
-De feature pipeline zal de pipelinezijn die het meeste gaat draaien, als je ziet in [Feature pipeline](https://github.com/delaygram/delay-frontend/issues/6) is te zien welke stappen allemaal uitgevoerd zullen worden tijdens een push event met de branch naam `feature/*`.
+De feature pipeline zal de pipelinezijn die het meeste gaat draaien, als je ziet in [Feature pipeline](https://github.com/delaygram/delay-frontend/issues/6) is te zien welke stappen allemaal uitgevoerd zullen worden tijdens een push event met de branch naam `feature/**`.
 
 De volgende stappen worden dan ook uitgevoerd:
 - **Set-up node:** In de set-up node wordt ervoor gezorgd dat de cache opgehaald die momenteel beschikbaar is
@@ -104,9 +104,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 ```
+
 > **Source:** [Feature pipeline](https://github.com/delaygram/delay-frontend/blob/main/.github/workflows/front.feature.push.yml)
 
-## development
+## 5.2. development
 
 ![Development pipeline](/sources/develop-pipeline.drawio.svg)
 
@@ -210,4 +211,5 @@ jobs:
 ```
 > **Source:** [Development pipeline](https://github.com/delaygram/delay-frontend/blob/main/.github/workflows/front.develop.push.yml)
 
-## 5.3 main
+## 5.3. main
+![Main pipeline](/sources/main-pipeline.drawio.svg)
