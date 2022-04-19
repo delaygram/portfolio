@@ -107,6 +107,7 @@ Bij Enterprise-softwareontwikkeling is het de bedoeling om correcte developing p
 | ---: | ------------ | ------------- | --------- |
 |  0.1 | Sprint 0     | Groepsproject | undefined |
 |  1.1 | Sprint 1     | Groepsproject | orienting |
+|  2.1 | Sprint 2     | Groepsproject | orienting |
 
 **Onderbouwing**
 
@@ -117,6 +118,10 @@ In deze sprint hebben wij als groep slecht gewerkt naar persoonlijke mening en h
 *1.1: Sprint 1*
 In deze sprint is er veel voortgang gekomen in het opzicht van teamverband en developing, zo zijn er meerdere taken en regels verdeeld binnen de groep waardoor het teamverband met grote maten is verbeterd. Er worden duidelijke taken bij mensen neergelegd en er wordt in groepsverband taken verzonnen en bijgehouden.
 
+*2.1: Sprint 2*
+
+Naast de persoonlijke feedback is er op 19-04 nog feedbck gegeven op het groepsproject, binnen de groep is er namelijk een bewijslast die te maken heeft met Developing Enterprise software as-a-team. Daar zijn we op orienting gezet met de volgende reden. We zijn in het begin zeer stroef gestart en hebben enorm veel stappen gemaakt in de richting van werken als een team-effort. Denk hier aan planning-technisch, groepsdynamiek, taakverdelingen, stakeholders contactmomenten etc. Echter kunnen we hier zeker nog flink in groeien en zullen hier als een team flink aan gaan werken.
+
 **Reflectie op voortgang**
 
 *0.1: Sprint 0*
@@ -126,6 +131,10 @@ De docent heeft aangegeven dat er veel werk nodig is om hier een betere voortgan
 *1.1: Sprint 1*
 
 Er is veel voortgang geweest in het opzicht van teamverband, maar er kunnen zeker nog dingen verbeterd worden.
+
+*2.1: Sprint 2*
+
+De docent heeft aangegeven dat er zeker veel voortgang is m.b.t. LU1 echter zitten we nog in beginnende fase en kunnen we hiermee als groep nog flink in groeien.
 
 ## 4.2. Op context gebaseerd onderzoek verrichten
 
@@ -383,5 +392,7 @@ Nu is er feedback ontvangen van de volgende onderdelen waar ik het persoonlijk n
   - Dit is naar mijn mening gedaan, tenzij de docent meer diepgang in het projectboard wou, maar dat kon ik niet helemaal peilen
 - Volgend keer zal ik meer diepgang in de testen moeten opzoeken
   - Dit is misschien een punt waar ik wel bij sta en zal volgende keer ook meer diepgang in de testen opzoeken
+
+Naast de persoonlijke feedback is er op 19-04 nog feedbck gegeven op het groepsproject, binnen de groep is er namelijk een bewijslast die te maken heeft met Developing Enterprise software as-a-team. Daar zijn we op orienting gezet met de volgende reden. We zijn in het begin zeer stroef gestart en hebben enorm veel stappen gemaakt in de richting van werken als een team-effort. Denk hier aan planning-technisch, groepsdynamiek, taakverdelingen, stakeholders contactmomenten etc. Echter kunnen we hier zeker nog flink in groeien en zullen hier als een team flink aan gaan werken.
 
 [Presentatie](sources/sprint-2.pptx)
