@@ -12,11 +12,18 @@
     - [4.2.4. Monitoring](#424-monitoring)
     - [4.2.5. Performance](#425-performance)
 - [5. User stories en specifieke onderdelen DoR & DoD](#5-user-stories-en-specifieke-onderdelen-dor--dod)
-  - [Gebruikers registratie, authenticatie en autorisatie](#gebruikers-registratie-authenticatie-en-autorisatie)
+  - [Gebruikers registratie](#gebruikers-registratie)
     - [User Story](#user-story)
     - [Definition of Ready](#definition-of-ready)
     - [Definition of Done](#definition-of-done)
+  - [Gebruikers validatie](#gebruikers-validatie)
     - [User Story](#user-story-1)
+    - [Definition of Ready](#definition-of-ready-1)
+    - [Definition of Done](#definition-of-done-1)
+  - [Gebruikers inloggen](#gebruikers-inloggen)
+    - [User Story](#user-story-2)
+    - [Definition of Ready](#definition-of-ready-2)
+    - [Definition of Done](#definition-of-done-2)
 
 # 2. Document historie
 
@@ -68,7 +75,7 @@ In dit document wordt toegelicht wat de DoD (Definition of Done) en DoR (Definit
 
 # 5. User stories en specifieke onderdelen DoR & DoD
 
-## Gebruikers registratie, authenticatie en autorisatie
+## Gebruikers registratie
 
 ### User Story
 
@@ -85,5 +92,33 @@ Als een uitgelogde gebruiker wil ik een nieuw account willen registreren zodat i
 - Gebruiker moet een bericht krijgen als de gekozen gebruikersnaam al in gebruik is
 - Gebruiker moet een email krijgen na de registratie voor het activeren van het account
 
+## Gebruikers validatie
+
 ### User Story
+
+Als een uitgelogde gebruiker wil ik mijn account kunnen activeren zodat ik kan inloggen op mijn nieuw aangemaakte account.
+
+### Definition of Ready
+
+- Er is bepaald welke attributen verplicht zijn voor een user om zich te kunnen verifiëren
+
+### Definition of Done
+
+- Een gebruiker zal zijn account moeten verifiëren, voordat hij/zij kan inloggen
+- De gebruiker zal bericht krijgen als de ingevoerde code niet correct is
+
+## Gebruikers inloggen
+
+### User Story
+
+Als een uitgelogde gebruiker wil ik kunnen inloggen op mijn account, zodat ik bij mijn persoonlijke informatie kan komen
+
+### Definition of Ready
+
+- Er is bepaald welke attributen verplicht zijn voor een user om zich te kunnen inloggen
+
+### Definition of Done
+
+- Gebruiker moet zich kunnen inloggen met een correct ingevoerde gebruikersnaam en wachtwoord
+- Gebruiker krijgt een bericht als de gebruikersnaam en/of wachtwoord incorrect is ingevuld
 
