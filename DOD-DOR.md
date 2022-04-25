@@ -12,10 +12,10 @@
     - [4.2.4. Monitoring](#424-monitoring)
     - [4.2.5. Performance](#425-performance)
 - [5. User stories en specifieke onderdelen DoR & DoD](#5-user-stories-en-specifieke-onderdelen-dor--dod)
-  - [Gebruikers registratie, authenticatie en authorisatie](#gebruikers-registratie-authenticatie-en-authorisatie)
+  - [Gebruikers registratie, authenticatie en autorisatie](#gebruikers-registratie-authenticatie-en-autorisatie)
     - [User Story](#user-story)
-    - [Defenition of Ready](#defenition-of-ready)
-    - [Defenition of Done](#defenition-of-done)
+    - [Definition of Ready](#definition-of-ready)
+    - [Definition of Done](#definition-of-done)
     - [User Story](#user-story-1)
 
 # 2. Document historie
@@ -26,7 +26,7 @@
 
 # 3. Introductie
 
-In dit document wordt toegelicht wat de DoD (Defenition of Done) en DoR (Defenition of Ready) is voor de betreffende user stories. De user stories hebben allemaal hun eigen DoD en DoR, met bovenin een aantal algemene DoD en DoR die gelden voor alle user stories.
+In dit document wordt toegelicht wat de DoD (Definition of Done) en DoR (Definition of Ready) is voor de betreffende user stories. De user stories hebben allemaal hun eigen DoD en DoR, met bovenin een aantal algemene DoD en DoR die gelden voor alle user stories.
 
 # 4. Algemene definitions
 
@@ -68,18 +68,18 @@ In dit document wordt toegelicht wat de DoD (Defenition of Done) en DoR (Defenit
 
 # 5. User stories en specifieke onderdelen DoR & DoD
 
-## Gebruikers registratie, authenticatie en authorisatie
+## Gebruikers registratie, authenticatie en autorisatie
 
 ### User Story
 
-Als een uitgelogde gebruiker wil ik een nieuw account willen registreren zodat ik mijn nieuw aangemaakte account kan verifieren.
+Als een uitgelogde gebruiker wil ik een nieuw account willen registreren zodat ik mijn nieuw aangemaakte account kan verifiëren.
 
-### Defenition of Ready
+### Definition of Ready
 
 - Er is bepaald welke attributen verplicht zijn voor een user om zich te kunnen registeren
 - Er is bepaald welk attribuut gebruikt gaat worden om mee in te loggen
 
-### Defenition of Done
+### Definition of Done
 
 - Gebruiker moet de mogelijkheid hebben om een nieuw account te kunnen registreren met email, gebruikersnaam en wachtwoord
 - Gebruiker moet een bericht krijgen als de gekozen gebruikersnaam al in gebruik is
