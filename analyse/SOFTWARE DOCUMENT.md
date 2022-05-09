@@ -21,14 +21,15 @@
   - [9.1. User stories](#91-user-stories)
   - [9.2. Functionele requirements](#92-functionele-requirements)
   - [9.3. Non-functionele requirements](#93-non-functionele-requirements)
-- [10. Architektuur Design](#10-architektuur-design)
-  - [10.1. Systeem contxt](#101-systeem-contxt)
+- [10. Context](#10-context)
+  - [10.1. Systeem context](#101-systeem-context)
   - [10.2. Container Diagram](#102-container-diagram)
 - [11. DevOps](#11-devops)
   - [11.1. CI/CD tools](#111-cicd-tools)
   - [11.2. Pipeline](#112-pipeline)
-    - [11.2.1. Feature](#1121-feature)
-    - [11.2.2. Develop/Main](#1122-developmain)
+    - [11.2.1. feature/**](#1121-feature)
+    - [11.2.2. development](#1122-development)
+    - [11.2.3. main](#1123-main)
 - [12. Referenties](#12-referenties)
 
 # 2. Delaygram software
@@ -37,8 +38,8 @@
 | ------------ | ---------- |
 | Project      | Delaygram  |
 | Team         | Rick Meels |
-| Versie       | 0.1        |
-| Versie datum | 21-2-2022  |
+| Versie       | 0.4        |
+| Versie datum | 9-5-2022   |
 | Status       | Concept    |
 
 # 3. Document historie
@@ -48,6 +49,7 @@
 |    0.1 | Eerste opzet document                                                                                                                                               | Rick Meels | 20-2-2022 |
 |    0.2 | Invullen van de volgende onderdelen:<br>- Introductie<br>- Project omschrijving<br>- Projectmanagement tools<br>- Non-functionals opzetten<br>- DevOps beschrijving | Rick Meels | 21-2-2022 |
 |    0.3 | Invullen van de volgende onderdelen:<br>- Systeem Context<br>- Container Diagram<br>- Updated images with svg's                                                     | Rick Meels | 23-2-2022 |
+|    0.4 | Bijwerken van de volgende onderdelen:<br>- DevOps beschrijving <br>- Systeem Contex<br>- Container Diagram                                                          | Rick Meels | 9-5-2022  |
 
 # 4. Aandeelhouders
 
@@ -109,7 +111,7 @@ Deze sprint zal toegewijd zijn aan het opzetten van het project. De eisen voor h
 
 ### 8.1.2. Planning
 
-![Project board sprint 0](img/project-board-sprint-0.png)
+![Project board sprint 0](/img/project-board-sprint-0.png)
 
 ### 8.1.3. Achievements
 
@@ -154,21 +156,83 @@ In dit hoofdstuk zullen de non-functionele requirements van het product worden b
 
 **BEWIJSLASTEN NON-FUNCTIONALS**
 
-# 10. Architektuur Design
+**Security**
 
-## 10.1. Systeem contxt
+Cognito - JWT
+
+**Privacy**
+
+Cognito - Gegevens van gebruikers zijn niet zomaar te verkrijgen en daarbij is de username en beveiligde wachtwoord nodig om deze gegevens op te kunnen halen
+
+**Testability**
+
+Unit tests - Functional tests
+
+**Documentation**
+
+Documentatie is beschikbaar via de Github repository.
+
+**Extensibility**
+
+Lambda's - Verschillende services etc.
+
+**Performance**
+
+Performance tests op basis van scala - X-Ray tracing
+
+**Quality**
+
+SonarQube - Snyk
+
+**Scalability**
+
+Lambda's - API Gateway - CloudFront
+
+**Highly availability**
+
+AWS
+
+**Monitoring**
+
+X-Ray tracing - CloudWatch
+
+# 10. Context
+
+## 10.1. Systeem context
+
+Het doel van een systeem context diagram is om aan te geven met welke externe software systemen er wordt gewerkt.
  
-![Systeem Context](img/systeem-context.svg)
+![Systeem Context](/sources/systeem-context.drawio.svg)
 
-Hierboven is de systeem context te zien. Hier staan de verbindingen met externe applicaties en hoe deze met elkaar communiceren. Ook zijn de verschillende rollen te zien en hoe deze het systeem gebruiken.
+Er zijn een aantal onderdelen in dit project die gebruikt worden bij de applicatie:
+
+- [**Cognito:**](https://aws.amazon.com/about-aws/whats-new/2014/07/10/introducing-amazon-cognito/#:~:text=Amazon%20Cognito%20is%20a%20simple,users%20across%20their%20mobile%20devices.) Een simpele user identity en data synchronisatie service die helpt bij het veilig managen van gebruikersgegevens.
+- [**SNS:**](https://docs.aws.amazon.com/sns/latest/dg/welcome.html) Verzorgt het publiceren, sturen en ontvangen van berichten (SMS, email, push notifications, etc.)
+- [**EventBridge:**](https://www.amazonaws.cn/en/eventbridge/faqs/) Wordt gebruikt om op een makkelijkere manier event-driven applicaties op schaal te bouwen.
+- [**CloudFront**](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html) Verzorgt de publicatie van content op een makkelijkere manier en zorgt voor de routing binnen het domein.
+- [**XRay-tracing:**](https://aws.amazon.com/xray/#:~:text=With%20X%2DRay's%20tracing%20features,discover%20patterns%20and%20diagnose%20issues.) Verzorgt de tracing van de applicatie voor analyze en debug doeleinden.
+- [**CloudWatch:**](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_WhatIsCloudWatch.html) Verzorgt de monitoring van de applicatie.
 
 ## 10.2. Container Diagram
 
-![Container diagram](img/container-diagram.svg)
+Hier staan de componenten gedefinieerd die beschikbaar gesteld zijn binnen de applicatie. De applicatie gaat namelijk met meerdere componenten praten, om ervoor te zorgen dat de communicatie tussen de systemen goed geleid wordt naar de uiteindelijke endpoint.
 
-Hierboven staat een diagram waar de architectuur iets duidelijker in beeld is gebracht. Zo valt te zien dat er een frontend service die met de backend praat. De backend services zullen praten met verschillende datastores. Ook staat de verbinding met Cognito en SNS services ertussen.
+![Container diagram](/sources/container-diagram.drawio.svg)
 
-![Service Datastore](img/service-datastore.svg)
+Hierboven staan de containers die gebruikt worden in de applicatie:
+
+- **Post service:** is verantwoordelijk voor het publiceren en ophalen van posts.
+- **Feed service:** is verantwoordelijk voor het opbouwen van de feed.
+- **Follower service:** is verantwoordelijk voor het opslaan van de gevolgde en volgende gebruikers.
+- **Authentication service:** is verantwoordelijk voor het bijhouden van de gebruikersgegevens en authenticatie.
+
+Om hier een beter overzicht van te hebben is er een cloud-deployment diagram gedefinieerd.
+
+![Cloud deployment diagram](/sources/cloud-deployment-diagram.drawio.svg)
+
+In dit cloud-deployment diagram is te zien welke onderdelen per service zijn gedefinieerd. Om meer uitleg te krijgen over deze componenten, zijn deze te vinden in het [AWS document](/analyse/AWS.md).
+
+![Service Datastore](/sources/service-datastore.drawio.svg)
 
 Elke service is opgezet met een Datastore eracher, deze bestaat in alle gevallen uit een NoSQL database. In de volgende afbeelding zullen de datastores en services als een object gepresenteerd worden.
 
@@ -182,28 +246,284 @@ Uit onderzoek dat gedaan is bij [#6](https://github.com/delaygram/portfolio/issu
 
 ## 11.2. Pipeline
 
-### 11.2.1. Feature
+### 11.2.1. feature/**
 
-![Feature pipeline](img/feature-pipline.svg)
+![feature pipeline](/sources/feature-pipline.drawio.svg)
 
-Hierboven staat een visualisatie van de pipeline zoals hij plaatsvind wanneer er op een feature branch wordt gepusht.
+De feature pipeline zal de pipelinezijn die het meeste gaat draaien, als je ziet in [Feature pipeline](https://github.com/delaygram/delay-frontend/issues/6) is te zien welke stappen allemaal uitgevoerd zullen worden tijdens een push event met de branch naam `feature/**`.
 
-De volgende stappen zullen plaatsvinden:
-- **Project board**: De branch + commits zullen gekoppeld zijn aan een issue.
-- **GitHub**: Er zal een actie plaatsvinden op GitHub (push, pr, merge, etc.).
-- **GitHub Actions**: De pipeline zal worden afgetrapt op GitHub Actions. Alle volgende stappen zullen door middel van de pipeline worden aangeroepen.
-- **Build**: De code zal worden gebuild.
-- **Test**: Alle tests die gemaakt zijn zullen gedraaid worden. (ex. unit tests, integration tests, performance tests)
-- **SonarCloud**: De code zal worden gecheckt op SonarCloud om goede codekwaliteit te leveren.
+De volgende stappen worden dan ook uitgevoerd:
+- **Set-up node:** In de set-up node wordt ervoor gezorgd dat de cache opgehaald die momenteel beschikbaar is
+- **Cache node modules:** In de cache node modules wordt ervoor gezorgd dat de node modules opgeslagen worden in de cache
+- **Install dependencies:** De dependencies die momenteel nog niet bestaan worden geinstalleerd en beschikbaar gesteld
+- **Build staging:** In de build staging wordt de applicatie gebouwd met het staging profiel om te kijken of deze slaagt
+- **Testing:** Testen worden uitgevoerd en een rapport wordt gegenereerd om te gebruiken in SonarCloud
+- **SonarCloud:** De SonarCloud (linting/validatie) wordt uitgevoerd en de code coverage wordt meegenomen van de vorige stap
 
-### 11.2.2. Develop/Main
+<details>
+  <summary>Feature pipeline</summary>
+  
+```yaml
+on:
+  push:
+    branches:
+      - "feature/**"
 
-![Develop/Main pipeline](img/develop-master-pipeline.svg)
+jobs:
+  build:
+    name: Build and test
+    runs-on: ubuntu-20.04
 
-Dit is de pipeline die wordt uitgevoerd op de develop en main branches. Ook worden alle stappen van de feature branches uitgevoerd.
+    strategy:
+      matrix:
+        node-version: [14.x]
 
-De volgende extra stappen zullen plaatsvinden:
-- **GitHub Packages**: Er wordt een Docker Image gemaakt en deze zal op GitHub Packages worden gepubliceerd.
-- **Kubernetes**: Er wordt een Kubernetes deployment gemaakt.
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Cache node modules
+        id: cache-nodemodules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      - name: Install Dependencies
+        if: steps.cache-nodemodules.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Install angular CLI
+        run: npm i -g @angular/cli
+
+      - name: Build
+        run: ng build --configuration staging
+
+      - name: Lint
+        run: ng lint
+
+      - name: Test
+        run: ng test -- --browsers=ChromeHeadless --watch=false --code-coverage
+
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+```
+
+> **Source:** [Feature pipeline](https://github.com/delaygram/delay-frontend/blob/main/.github/workflows/front.feature.push.yml)
+</details>
+
+### 11.2.2. development
+
+![Development pipeline](/sources/develop-pipeline.drawio.svg)
+
+In de development pipeline is het de bedoeling om dezelfde stappen uit te voeren die ook in de `feature/*` pipeline staan, maar hier worden een aantal extra stappen uitgevoerd, denk hier aan deployment naar de staging `environment`. De stappen die **extra** worden uitgevoerd, staan hieronder uitgelegd:
+- **Feature:** Alle stappen van de [feature pipeline](#51-feature)
+- **Tag build:** De build wordt op dit moment getagd om te weten waar dit als laatst fout is gegaan, de tag heeft de naam `build-{build number}`
+- **Deploy staging:** De applicatie wordt live gezet op de staging environment wat te bereiken is via [https://staging.delaygram.nl/](https://staging.delaygram.nl/)
+- **Tag release:** De release krijgt een tag om te zien welke code nu precies op de live staging omgeving staat
+- **Publish test results:** Alle test resultaten die in de pipeline zijn gegenereerd worden gepubliceerd naar een S3 bucket in AWS om de resultaten terug te kunnen halen
+
+<details>
+  <summary>Development pipeline</summary>
+
+```yaml
+on:
+  push:
+    branches:
+      - "development"
+
+jobs:
+  build:
+    name: Build and test
+    runs-on: ubuntu-20.04
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Cache node modules
+        id: cache-nodemodules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+
+      - name: Install Dependencies
+        if: steps.cache-nodemodules.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Install angular CLI
+        run: npm i -g @angular/cli
+
+      - name: Build
+        run: ng build --configuration staging
+
+      - name: Lint
+        run: ng lint
+
+      - name: Test
+        run: ng test -- --browsers=ChromeHeadless --watch=false --code-coverage
+
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
+      - name: Set up AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Setup Git
+        run: |
+          git config --local user.email ${{ secrets.EMAIL }}
+          git config --local user.name ${{ github.actor }}
+
+      - name: Tag build
+        run: |
+          git tag -a build-${{ github.run_number }} -m "Tag for github build-${{ github.run_number }}"
+          git push origin build-${{ github.run_number }}
+
+      - name: Deploy to staging bucket
+        run: aws s3 sync dist/delay-frontend s3://delaygram-staging/
+
+      - name: Run invalidation on staging CloudFront
+        run: aws cloudfront create-invalidation --distribution-id E2VCGQ0ORDECMP --paths "/*"
+
+      - name: Tag release
+        run: |
+          git tag -a release-${{ github.run_number }} -m "Tag for github release-${{ github.run_number }}"
+          git push origin release-${{ github.run_number }}
+
+      - name: Publish test results
+        run: |
+          aws s3 cp coverage/delay-frontend s3://delaygram-testresults/frontend/build-${{ github.run_number }} --recursive
+```
+
+> **Source:** [Development pipeline](https://github.com/delaygram/delay-frontend/blob/main/.github/workflows/front.develop.push.yml)
+</details>
+
+
+
+
+### 11.2.3. main
+
+![Main pipeline](/sources/main-pipeline.drawio.svg)
+
+In de main pipeline loopt het net wat anders, hier hoeven namelijk geen tests meer uitgevoerd worden, omdat deze gevalideerd en gecontroleerd zijn in de feature en development pipelines. Daarvoor worden de stappen van de main pipeline hieronder toegelicht:
+
+- **Set-up node:** In de set-up node wordt ervoor gezorgd dat de cache opgehaald die momenteel beschikbaar is
+- **Cache node modules:** In de cache node modules wordt ervoor gezorgd dat de node modules opgeslagen worden in de cache
+- **Install dependencies:** De dependencies die momenteel nog niet bestaan worden geinstalleerd en beschikbaar gesteld
+- **Build production:** Nu is het de bedoeling om de production build te bouwen om ook de correcte environments beschikbaar te krijgen
+- **Deploy production:** De applicatie wordt live gezet in de productie opgeving die te bereiken is via [https://delaygram.nl/](https://delaygram.nl/)
+- **Tag production:** Er wordt een production tag neergezet met de naam `production` om te zien welke commit momenteel op de live omgeving staat
+
+<details>
+  <summary>Main pipeline</summary>
+
+```yaml
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  build:
+    name: Build and test
+    runs-on: ubuntu-20.04
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Cache node modules
+        id: cache-nodemodules
+        uses: actions/cache@v2
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-build-${{ env.cache-name }}-
+            ${{ runner.os }}-build-
+            ${{ runner.os }}-
+      - name: Install Dependencies
+        if: steps.cache-nodemodules.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Install angular CLI
+        run: npm i -g @angular/cli
+
+      - name: Build
+        run: ng build --configuration production
+
+      - name: Set up AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Setup Git
+        run: |
+          git config --local user.email ${{ secrets.EMAIL }}
+          git config --local user.name ${{ github.actor }}
+      - name: Deploy to production bucket
+        run: aws s3 sync dist/delay-frontend s3://delaygram-prod/
+
+      - name: Run invalidation on production CloudFront
+        run: aws cloudfront create-invalidation --distribution-id E1UYS7U2IXL3JN --paths "/*"
+
+      - name: Tag production
+        run: |
+          git tag -a production -m "Tag for github production"
+          git push origin production
+```
+> **Source:** [Main pipeline](https://github.com/delaygram/delay-frontend/blob/main/.github/workflows/front.main.push.yml)
+
+</details>
 
 # 12. Referenties
