@@ -90,17 +90,58 @@ De 3 V's beschrijven data die geanalyzeerd kan worden (het process waar je waard
 
 Op het gebied van databases zijn relational databases al bekend, waarin transacties worden gebruikt om updates van informatie te verwerken. Als er in grote hoeveelheden data/gegevens worden bijgewerkt kan dit een uitdaging zijn om de inhoud van de database(s) in een geldige staat te houden. Om te voorkomen dat data wordt verloren kan er een mechanisme worden gebruikt om de transacties te valideren. Het mechanisme wat dan toegepast kan worden, wordt ook wel het ACID-principe genoemd. Het ACID-principe is een principe dat gebruikt wordt om de transacties van een database te valideren.
 
+***ACID principe***
+
+Als er een bank account is waarvan $100 van account A naar account B wordt overgemaakt moeten er twee transacties worden gedaan.
+
+1. Haal $100 van account A
+2. Geef $100 aan account B
+
+Tijdens het uitvoeren van deze stappen kan er echter een aantal dingen misgaan. Bijvoorbeeld:
+
+- De applicatie op de server kan crashen na stap 1
+- De database kan crashen tijdens stap 2
+- Twéé personen kunnen dezelfde transactie doen
+
+Het ACID principe is een principe dat gebruikt wordt om de transacties van een database te valideren en staat voor:
+
+- **Atomicity:** Als een reeks bewerkingen wordt gestart als een transactie, slaagt alles of niets. Als het bijvoorbeeld wordt geactiveerd als onderdeel van een transactie, worden zowel stap 1 als stap 2 bij het overboeken van die $100 van rekening A naar B van kracht, indien succesvol, of beide falen. Er zal geen gedeeltelijke transactie worden gemaakt.
+- **Consistency:**
+
 ***CAP theorem***
 
 Het CAP theorem bestaat uit drie componenten omdat ze betrekking hebben op distributed data opslag:
 
-    -   CAP theorem
-    -   CAP theorem
-    -   CAP theorem
+- **Consistency:** betekend dat alle clients dezelfde versie van de data hebben.
+- **Availability:** betekend dat alle clients bij het maken van een verzoek, altijd een antwoord krijgen.
+- **Partition tolerence:** betekend dat het cluster moet blijven werken ondanks communicatiestoringen tussen knooppunten.
+
+NoSQL (non-relational) databases zijn ideaal voor distributed netwerk applicaties. In tegenstelling tot hun verticaal schaalbare SQL (relational) tegenhanger, zijn NoSQL-databases horizontaal schaalbaar en worden ze door ontwerp gedistribueerd.
+
+NoSQL-databases worden geclassificeerd op basis van de twéé CAP-kenmerken die ze ondersteunen:
+
+- **CP Databases:** Een CP database levert consistentie en partition-tolerence ten koste van beschikbaarheid. Wanneer een partitie optreed tussen twee willekeurige knooppunten, moet het systeem het niet-consistente knooppunt afsluiten.
+- **AP Databases:** Een AP database levert beschikbaarheid en partition-tolerence ten koste van consistentie. Wanneer een partitie optreedt, blijven alle knooppunten beschikbaar, maar die aan het verkeerde uiteinde van een partitie kunnen een oudere versie van gegevens ontvangen.
+- **CA Databases:** Een CA database zorgt voor consistentie en beschikbaarheid op alle knooppunten. Het kan dit echter niet doen als er een partitie is tussen twee willekeurige knooppunten in het systeem.
+
+<div style="text-align:center">
+    <img src="./img/cap-theorem.jpg" />
+</div>
+
+***Conclusie***
 
 
 **Welke modellen zijn toepassbaar op distributed data?**
 
 # 6. Referenties
 
-[](https://www.bmc.com/blogs/cap-theorem/)
+**ACID Principe**
+- [https://medium.com/@pranabj.aec/acid-cap-and-base-cc73dee43f8c](https://medium.com/@pranabj.aec/acid-cap-and-base-cc73dee43f8c)
+- 
+
+**CAP Theorem**
+
+- [https://www.bmc.com/blogs/cap-theorem/](https://www.bmc.com/blogs/cap-theorem/)
+- [https://www.ibm.com/cloud/learn/cap-theorem](https://www.ibm.com/cloud/learn/cap-theorem)
+- [https://en.wikipedia.org/wiki/CAP_theorem](https://en.wikipedia.org/wiki/CAP_theorem)
+- [https://fhict.instructure.com/courses/12090/pages/gdpr-and-data-complexities-theoretical-background?module_item_id=751978](https://fhict.instructure.com/courses/12090/pages/gdpr-and-data-complexities-theoretical-background?module_item_id=751978)
