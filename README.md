@@ -13,7 +13,8 @@
   - [4.7. Beveiliging door middel van ontwerp](#47-beveiliging-door-middel-van-ontwerp)
   - [4.8. Gedistribueerde gegevens](#48-gedistribueerde-gegevens)
   - [4.9. Leeruitkomsten matrix](#49-leeruitkomsten-matrix)
-- [5. Reflectie](#5-reflectie)
+- [5. Bewijslasten](#5-bewijslasten)
+- [6. Reflectie](#6-reflectie)
 
 # 2. Document historie
 
@@ -22,6 +23,7 @@
 |    0.1 | Eerste opzet document                                                                          | 21-03-2022 |
 |    0.2 | Reflectie sprint 2<br>Invullen introductie<br>Invullen uitleg leeruitkomsten en sub-onderdelen | 13-04-2022 |
 |    0.3 | Aanmaken en invullen leeruitkomst matrix                                                       | 15-04-2022 |
+| 0.4 | Update voor Sprint 3<br>Bewijslasten toegevoegd als kop<br>Leeruitkomsten matrix bijgewerkt | 31-05-2022 |
 
 # 3. Introductie
 
@@ -345,8 +347,34 @@ In dit hoofdstuk is te zien wat de momentele uitkomsten zijn van de betreffende 
 | LU7 |    ✴️✳️     |           |           |            |          |
 | LU8 |    ✴️✳️     |           |           |            |          |
 
+**Sprint 3**
 
-# 5. Reflectie
+|     | Undefined | Orienting | Beginning | Proficient | Advanced |
+| --- | :-------: | :-------: | :-------: | :--------: | :------: |
+| LU1 |          |     ✴️✳️     |           |            |          |
+| LU2 |          |     ✴️✳️     |           |            |          |
+| LU3 |         |           |           |     ✴️✳️       |          |
+| LU4 |           |           |         |    ✳️        |    ✴️      |
+| LU5 |           |           |          |     ✳️      |    ✴️      |
+| LU6 |           |           |          |           |    ✴️✳️      |
+| LU7 |         |           |           |     ✴️       |    ✳️      |
+| LU8 |         |     ✴️      |           |      ✳️      |          |
+
+# 5. Bewijslasten
+
+- [AWS](analyse/AWS.md)
+- [Defenition of Done/Ready](analyse/DOD-DOR.md)
+- [Projectplan](analyse/PROJECTPLAN.md)
+- [Software Document](analyse/SOFTWARE%20DOCUMENT.md)
+- [Systeem test-plan](beheer/SYSTEEM%20TEST%20PLAN.md)
+- [DevOps](DEVOPS.md)
+- [Distributed Data](DISTRIBUTED-DATA.md)
+- [Architectuur](ontwerp/ARCHITECTUUR.md)
+- [Producten](realiseren/PRODUCTEN.md)
+- [Alle sources zijn te vinden in de Sources folder ](sources/)
+- [Presentaties zijn te vinden in de presentaties folder](presentaties/)
+
+# 6. Reflectie
 
 <details>
   <summary>Explanation about reflection</summary>
@@ -396,3 +424,10 @@ Nu is er feedback ontvangen van de volgende onderdelen waar ik het persoonlijk n
 Naast de persoonlijke feedback is er op 19-04 nog feedbck gegeven op het groepsproject, binnen de groep is er namelijk een bewijslast die te maken heeft met Developing Enterprise software as-a-team. Daar zijn we op orienting gezet met de volgende reden. We zijn in het begin zeer stroef gestart en hebben enorm veel stappen gemaakt in de richting van werken als een team-effort. Denk hier aan planning-technisch, groepsdynamiek, taakverdelingen, stakeholders contactmomenten etc. Echter kunnen we hier zeker nog flink in groeien en zullen hier als een team flink aan gaan werken.
 
 [Presentatie](sources/sprint-2.pptx)
+
+**Sprint 3**
+
+Sprint 3 is afgerond waarbij een aantal onderdelen aanbod zijn gekomen, documentatie van Architectuur, monitoring op basis van CloudWatch (AWS), Distributed Data onderzoek en Message Queuing. Daarnaast is per leerdoel nagelopen wat er gedaan is binnen het specifieke onderdeel. Het is nu voornamelijk onderdelen afronden en kijken waar eventueel nog bijgeschroeft kan worden voor de laatste leerdoelen. Nu is voor deze sprint op verschillende onderdelen feedback gegeven:
+
+- Security by Design: kijk of binnen Cognito het mogelijk is om roles etc. toe te kunnen passen voor applicaties, daarbij waren twijfels of Cognito afdoende is voor authenticatie.
+- 
