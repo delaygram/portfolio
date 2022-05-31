@@ -14,6 +14,8 @@
   - [4.8. Gedistribueerde gegevens](#48-gedistribueerde-gegevens)
   - [4.9. Leeruitkomsten matrix](#49-leeruitkomsten-matrix)
 - [5. Bewijslasten](#5-bewijslasten)
+  - [5.1. Documenten](#51-documenten)
+  - [5.2. Repositories](#52-repositories)
 - [6. Reflectie](#6-reflectie)
 
 # 2. Document historie
@@ -361,6 +363,7 @@ In dit hoofdstuk is te zien wat de momentele uitkomsten zijn van de betreffende 
 | LU8 |         |     ✴️      |           |      ✳️      |          |
 
 # 5. Bewijslasten
+## 5.1. Documenten
 
 - [AWS](analyse/AWS.md)
 - [Defenition of Done/Ready](analyse/DOD-DOR.md)
@@ -373,6 +376,14 @@ In dit hoofdstuk is te zien wat de momentele uitkomsten zijn van de betreffende 
 - [Producten](realiseren/PRODUCTEN.md)
 - [Alle sources zijn te vinden in de Sources folder ](sources/)
 - [Presentaties zijn te vinden in de presentaties folder](presentaties/)
+
+## 5.2. Repositories
+
+- [delay-frontend](https://github.com/delaygram/delay-frontend)
+- [delay-authentication](https://github.com/delaygram/delay-authentication)
+- [delay-post](https://github.com/delaygram/delay-post)
+- [delay-media](https://github.com/delaygram/delay-media)
+- [event-bus-example](https://github.com/delaygram/event-bus-example)
 
 # 6. Reflectie
 
